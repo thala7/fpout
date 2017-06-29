@@ -125,37 +125,22 @@
 <msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 93: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">ccf_calc_stop</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 104: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">start_wait_for_startaddr</arg> since it is never assigned
-</msg>
-
 <msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 112: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">ccf</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 236: Using initial value <arg fmt="%s" index="1">(&quot;UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU&quot;)</arg> for <arg fmt="%s" index="2">tbo</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 238: Using initial value <arg fmt="%s" index="1">(&quot;UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU&quot;)</arg> for <arg fmt="%s" index="2">tbo</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 260: Assignment to <arg fmt="%s" index="1">regsd</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 262: Assignment to <arg fmt="%s" index="1">regsd</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 455: Assignment to <arg fmt="%s" index="1">zero</arg> ignored, since the identifier is never used
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 567: Assignment to <arg fmt="%s" index="1">tcf</arg> ignored, since the identifier is never used
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 94: Net &lt;<arg fmt="%s" index="1">ccf_calc_start</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 457: Assignment to <arg fmt="%s" index="1">zero</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 102: Net &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_read</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 152: Net &lt;<arg fmt="%s" index="1">curr_addr[31]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 153: Net &lt;<arg fmt="%s" index="1">prev_addr[31]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd" Line 559: Assignment to <arg fmt="%s" index="1">txd1</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd" Line 561: Assignment to <arg fmt="%s" index="1">txd1</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/lib/eth/core/grethc.vhd" Line 486: Assignment to <arg fmt="%s" index="1">vcc</arg> ignored, since the identifier is never used
@@ -209,13 +194,7 @@
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd" Line 254: Net &lt;<arg fmt="%s" index="1">rxd1</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd" Line 264: Net &lt;<arg fmt="%s" index="1">sw_func_or_timed</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%d" index="2">370</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">buffer32</arg>&gt; of block &lt;<arg fmt="%s" index="4">srl_buffer_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">ahbtranschecker</arg>&gt;. Underlying logic will be removed.
-</msg>
-
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%d" index="2">384</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">timestamps_comp</arg>&gt; of block &lt;<arg fmt="%s" index="4">timestamps</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">ahbtranschecker</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%d" index="2">372</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">buffer32</arg>&gt; of block &lt;<arg fmt="%s" index="4">srl_buffer_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">ahbtranschecker</arg>&gt;. Underlying logic will be removed.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sw&lt;6:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -227,253 +206,253 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RsRx</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clkn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clkn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">sdclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">sdclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">pciclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">pciclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">cgo_pcilock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">cgo_pcilock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clk4x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clk4x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clk1xu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clk1xu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clk2xu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clk2xu</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clkb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clkb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clkc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clkc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">309</arg>: Output port &lt;<arg fmt="%s" index="3">clk8x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">clk8x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clkgen0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_pwd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_pwd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_hsize</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_hsize</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_hmaster</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_hmaster</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_active</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_active</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_nseq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_nseq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_seq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_seq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_read</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_read</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_write</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_write</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_ws</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_ws</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_retry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_retry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_split</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_split</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_spdel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_spdel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">350</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_locked</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">dsuo_astat_locked</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">leon3gen.dsugen.dsu0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_scaler</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_scaler</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rtsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rtsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">364</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rxen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">366</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rxen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dcomgen.dcom0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_ninst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_ninst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tdo</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tdo</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tdi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tdi</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_capt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_capt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_shft</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_shft</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_upd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_upd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tdoen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tdoen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tckn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_tckn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_iupd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">382</arg>: Output port &lt;<arg fmt="%s" index="3">tapo_iupd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ahbjtaggen0.ahbjtag0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sddata</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sddata</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ramoen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ramoen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_wrn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_wrn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_vbdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_vbdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_svbdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_svbdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sa</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sa</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_cb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_cb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_scb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_scb</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_vcdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_vcdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_svcdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_svcdrive</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdcke</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdcke</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdcsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdcsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_dqm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_dqm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ramn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ramn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_romn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_romn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_iosn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_iosn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_read</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_read</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ce</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_ce</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sdram_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_sdram_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">memo_rs_edac_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">memo_rs_edac_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdwen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_sdwen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_rasn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_rasn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">390</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_casn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">392</arg>: Output port &lt;<arg fmt="%s" index="3">sdo_casn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mg2.sr1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">539</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_tick</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_tick</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">539</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_timer1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_timer1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">539</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_wdogn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_wdogn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">539</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_wdog</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">541</arg>: Output port &lt;<arg fmt="%s" index="3">gpto_wdog</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gpt.timer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_scaler</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_scaler</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rtsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rtsn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_txen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_flow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">553</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rxen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">555</arg>: Output port &lt;<arg fmt="%s" index="3">uarto_rxen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ua1.uart1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">578</arg>: Output port &lt;<arg fmt="%s" index="3">etho_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">580</arg>: Output port &lt;<arg fmt="%s" index="3">etho_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">578</arg>: Output port &lt;<arg fmt="%s" index="3">etho_tx_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">580</arg>: Output port &lt;<arg fmt="%s" index="3">etho_tx_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">578</arg>: Output port &lt;<arg fmt="%s" index="3">etho_gbit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">580</arg>: Output port &lt;<arg fmt="%s" index="3">etho_gbit</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">578</arg>: Output port &lt;<arg fmt="%s" index="3">etho_speed</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">580</arg>: Output port &lt;<arg fmt="%s" index="3">etho_speed</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">eth0.e1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">594</arg>: Output port &lt;<arg fmt="%s" index="3">lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ethpads.etxc_pad</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">596</arg>: Output port &lt;<arg fmt="%s" index="3">lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ethpads.etxc_pad</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">596</arg>: Output port &lt;<arg fmt="%s" index="3">lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ethpads.erxc_pad</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.vhd</arg>&quot; line <arg fmt="%s" index="2">598</arg>: Output port &lt;<arg fmt="%s" index="3">lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ethpads.erxc_pad</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">memi_data(15:0)</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -1206,9 +1185,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">rxd1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">sw_func_or_timed</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
 <msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">data(15:8)</arg> may hinder XST clustering optimizations.
@@ -6032,13 +6008,10 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hgrant</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hresp</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hirq&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hrdata</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hirq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_hirq&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_testin</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -6047,25 +6020,7 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hsel</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_haddr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_htrans</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hsize</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hburst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hwdata</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hprot</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hmaster</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hmbsel</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -6092,15 +6047,6 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbmi_testoen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hwrite</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hready</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_hmastlock</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_testen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
@@ -6113,31 +6059,16 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ahbsi_testoen</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ccf_calc_start_port</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">data_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">370</arg>: Output port &lt;<arg fmt="%s" index="3">data_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">370</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">372</arg>: Output port &lt;<arg fmt="%s" index="3">data_present</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">370</arg>: Output port &lt;<arg fmt="%s" index="3">data_present</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">buffer32</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">384</arg>: Output port &lt;<arg fmt="%s" index="3">ts</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">timestamps_comp</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">397</arg>: Output port &lt;<arg fmt="%s" index="3">o_TX_Active</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">miniuart</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">curr_addr</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ahbtranschecker</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00000000000000000000000000000000</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">prev_addr</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ahbtranschecker</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00000000000000000000000000000000</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">ccf_calc_start</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ahbtranschecker</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd</arg>&quot; line <arg fmt="%s" index="2">399</arg>: Output port &lt;<arg fmt="%s" index="3">o_TX_Active</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">miniuart</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">ccf_store_in_buffer_read</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ahbtranschecker</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
@@ -6620,6 +6551,8 @@
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">r_done_ack</arg>&lt;<arg fmt="%d" index="2">1</arg>:<arg fmt="%d" index="3">1</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">greth_rx</arg>&gt;.
 </msg>
 
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">timestamps_comp/Mram_i[9]_GND_327_o_wide_mux_0_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
 <msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_state</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_divcomb.vready</arg>&gt; for implementation as read-only block RAM.
 </msg>
 
@@ -6632,10 +6565,10 @@
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_rfd</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_ecnt</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_r_ecnt[3]_PWR_131_o_Mux_582_o</arg>&gt; for implementation as read-only block RAM.
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_ecnt</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_r_ecnt[3]_PWR_130_o_Mux_582_o</arg>&gt; for implementation as read-only block RAM.
 </msg>
 
-<msg type="info" file="Xst" num="3212" delta="new" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_ecnt</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram__n5165</arg>&gt; for implementation as read-only block RAM.
+<msg type="info" file="Xst" num="3212" delta="new" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_ecnt</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram__n5391</arg>&gt; for implementation as read-only block RAM.
 </msg>
 
 <msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_d_cnt</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_r_d_cnt[1]_GND_49_o_Mux_790_o</arg>&gt; for implementation as read-only block RAM.
@@ -6656,19 +6589,19 @@
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_GND_49_o_GND_49_o_mux_657_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5880</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5872</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5913</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5905</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5978</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n5970</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n6041</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n6033</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n5868</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n5859</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_r_address[1]_GND_113_o_wide_mux_20_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -6680,7 +6613,7 @@
 <msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_dstate</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_dctrl.mhold</arg>&gt; for implementation as read-only block RAM.
 </msg>
 
-<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_istate</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram__n0635</arg>&gt; for implementation as read-only block RAM.
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">r_istate</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram__n0633</arg>&gt; for implementation as read-only block RAM.
 </msg>
 
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_rm_state[1]_GND_51_o_Mux_2_o</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -6776,87 +6709,58 @@
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_status_phystat_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">grethc</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_41</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_43</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_45</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_34</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_35</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_36</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_25</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_27</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_28</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_17</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_19</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_20</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_22</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">N_counted_vec_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_9</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">N_counted_vec_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_11</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">N_counted_vec_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_13</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">N_counted_vec_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_14</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">N_counted_vec_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">P_6</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">ahbtranschecker</arg>.
-You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -6877,220 +6781,193 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ccf_store_in_buffer_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_47</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_46</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_43</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_44</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_42</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_40</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_39</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_38</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_37</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_33</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_32</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">tx_counter_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_45</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -7121,6 +6998,39 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">outccf_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PS_43</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PS_44</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PS_45</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PS_46</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PS_47</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">r_lock</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mmu_icache</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -7318,7 +7228,37 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">r_rxen_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">greth_rx</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">P_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">19 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;P_3&gt; &lt;P_6&gt; &lt;P_9&gt; &lt;P_11&gt; &lt;P_13&gt; &lt;P_14&gt; &lt;P_17&gt; &lt;P_19&gt; &lt;P_20&gt; &lt;P_22&gt; &lt;P_25&gt; &lt;P_27&gt; &lt;P_28&gt; &lt;P_34&gt; &lt;P_35&gt; &lt;P_36&gt; &lt;P_41&gt; &lt;P_43&gt; &lt;P_45&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Uart_Transfer.N_counted_var_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ahbtranschecker</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;N_counted_vec_9&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">r_a_ctrl_inst_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">iu3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_a_rfa2_0&gt; </arg>
@@ -7493,12 +7433,6 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">r_rxf_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">apbuart</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">uart_data_in_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">uart_data_in_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ahbtranschecker</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">r_rxdb_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">dcom_uart</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -7783,9 +7717,6 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1303" delta="old" >From in and out of unit <arg fmt="%s" index="1">eth0.e1/m100.u0/ethc0/tx_rmii0.tx0</arg>, both signals <arg fmt="%s" index="2">tx_rst/rst</arg> and <arg fmt="%s" index="3">eth0.e1/m100.u0/ethc0/rx_rmii0.rx0/rx_rst/rst</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">tx_rst/rst</arg> will be lost.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatam_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatam_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
@@ -7855,12 +7786,6 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">mg2.sr1/r_hburst_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/miniuart/r_TX_Data_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/miniuart/r_TX_Data_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatas_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
@@ -7928,6 +7853,9 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatam_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatam_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">leon3mp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ahbtc0/miniuart/o_TX_Active</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt;.
@@ -8950,7 +8878,31 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatas_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_hrdatas_10&gt; &lt;ahb0/r_hrdatas_9&gt; &lt;ahb0/r_hrdatas_8&gt; &lt;ahb0/r_hrdatas_7&gt; </arg>
 </msg>
 
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_6&gt; </arg>
+</msg>
+
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahb0/r_hrdatas_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_hrdatas_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_9&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">leon3gen.cpu[0].u0/leon3x0/vhdl.p0/c0mmu/icache0/r_rndcnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;leon3gen.cpu[0].u0/leon3x0/vhdl.p0/c0mmu/dcache0/r_rndcnt_0&gt; </arg>
@@ -9002,6 +8954,12 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eth0.e1/m100.u0/ethc0/r_rxlength_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eth0.e1/m100.u0/ethc0/r_rxbytecount_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_haddr_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ahbtc0/r_haddr_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ahb0/r_cfga11&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mg2.sr1/r_bdrive_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mg2.sr1/r_bdrive_1&gt; </arg>
@@ -9064,8 +9022,4 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">leon3gen.cpu[0].u0/leon3x0/vhdl.p0/c0mmu/icache0/r_vaddress_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">leon3mp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;leon3gen.cpu[0].u0/leon3x0/vhdl.p0/c0mmu/icache0/r_waddress_26&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">leon3mp</arg>&gt;, final ratio is <arg fmt="%i" index="2">141</arg>.
-</msg>
-
 </messages>
-

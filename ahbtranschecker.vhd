@@ -113,21 +113,23 @@ signal NC_counter    : integer := 0;
  signal   tcf_prev, tcf, fc, fc_prev : std_logic_vector(msb downto 0):= X"00000000";
 ------------------------------------------------------------------------------------------------------------------------------- 
 --signal   N_counted                  : std_logic_vector(9 downto 0):= "0000000000";
- signal N_counted     : integer range 0 to 255:= 0;
--- signal N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
-signal N_counted_vec: std_logic_vector(7 downto 0):= "00000000";
+ signal N_counted     : integer range 0 to 1024:= 0;
+ signal N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
+--signal N_counted_vec: std_logic_vector(10 downto 0):= "00000000";
 
 --N_counted_vec <= std_logic_vector(to_unsigned(N_counted,16));
 signal max_sent_char     : integer range 0 to 101:= 0;
 
 -------------------------
 signal   P : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
+signal   PS : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
 signal tx_counter : integer := 0;
 signal fp_tx_done  : std_logic:='1';
 signal transmit_footprint : std_logic := '0';
 signal stop_tx : std_logic := '0';
+signal transmit_footprint_next_clk : std_logic:= '0';
 ------------------------------------------------------------------------------------------------------------------------------- 
- signal   uart_data_in   : std_logic_vector(7 downto 0);
+ signal   uart_data_in   : std_logic_vector(7 downto 0):= "00000000";
  --signal   uart_data_out  : std_logic_vector(7 downto 0);
 
 ---------------------------------------------------------------
@@ -383,7 +385,7 @@ buffer32: entity work.srl_buffer_32
 
   timestamps_comp : entity work.timestamps
     generic map ( m => 1024)
-    port map (rst => rst,
+    port map (start => ccf_calc_start,
     clk => clk,
     ts => ts_signal
              );
@@ -568,7 +570,7 @@ miniuart : entity work.UART_TX
   begin
     if rising_edge(clk) then
         if ccf_calc_en = '1' then 
-           --tcf_prev <= tcf;
+          --tcf_prev <= tcf;
           --tcf <= csa32 xor tcf_prev ;   
            tcf <= ts_signal;          
         end if;
@@ -629,42 +631,59 @@ miniuart : entity work.UART_TX
   --- Calculating N
   --N_CALC : process (clk)
   --begin
-   
-
+  --if rising_edge(clk) then 
+  -- if (ccf_calc_en = '1') then 
+  --    N_counted <= N_counted + 1;
+  -- end if
      
-   -- end if;        
+  --end if;        
   --end process;
   
 --------------------------------------------------------
 Uart_Transfer: process (clk)
- --variable tx_counter : integer range 0 to 6:= 0; 
+variable N_counted_var : integer range 0 to 1024:= 0; 
 begin
 
  if rising_edge(clk) then
       
-        --if ccf_calc_start = '1' then 
+        if ccf_calc_start = '1' then 
           NC_counter <=  NC_counter + 1;  ---trace-cycle counter
-        -- end if;    
-          --set fp_tx_done=false        
-        -- if (ccf_calc_en = '1') then 
-       --      N_counted <= N_counted + 1;
-         --end if;
-     --N_counted_vec <= std_logic_vector(to_unsigned(N_counted,16));
+         end if;    
+
+         if (ccf_calc_en = '1') then 
+           N_counted <= N_counted + 1;
+         end if;
+   
            if (NC_counter = 1023)then
-               --put N_counted anf tcf in bytes to be txed
-              P(47 downto 40) <="00101010";-- N_counted_vec(15 downto 8);
-               P(39 downto 32) <="00011100";-- N_counted_vec(7 downto 0);
-               P(31 downto 24) <= "00011010";--tcf(31 downto 24);
-               P(23 downto 16) <= "01011010";--tcf(23 downto 16);
-               P(15 downto 8) <= "01101010";--tcf(15 downto 8);
-               P(7 downto 0) <=  "01001010";--tcf(7 downto 0);
-          --     N_counted <= 0; 
+           --put N_counted anf tcf in bytes to be txed
+
+             if (ccf_calc_en = '1') then N_counted_var := N_counted +1; end if;
+             N_counted_vec <= std_logic_vector(to_unsigned(N_counted_var,16));
+
+               P(47 downto 40) <= N_counted_vec(15 downto 8);
+               P(39 downto 32) <= N_counted_vec(7 downto 0);
+               P(31 downto 24) <= tcf(31 downto 24);
+               P(23 downto 16) <= tcf(23 downto 16);
+               P(15 downto 8)  <= tcf(15 downto 8);
+               P(7 downto 0)   <= tcf(7 downto 0);
+          --
+               PS(47 downto 0) <= P(47 downto 0);   
+          --
                NC_counter <= 0;
-              fp_tx_done <= '0';
-              transmit_footprint <= '1'; 
+               fp_tx_done <= '0';
+               N_counted <= 0; 
+               if (ccf_calc_en = '1') then 
+                  N_counted <= 1; 
+               end if;
+               transmit_footprint_next_clk <= '1'; 
+          --
+               
             end if;
 
-
+         if (transmit_footprint_next_clk = '1' ) then
+              transmit_footprint <= '1'; 
+              transmit_footprint_next_clk <= '0'; 
+         end if;
 
 
    if (fp_tx_done = '0') then
@@ -672,7 +691,7 @@ begin
     case tx_counter is
       when 0 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(47 downto 40);
+        uart_data_in <= PS(47 downto 40); --PS
        if (uart_wait_for_byte_to_tx = '1' ) then
         tx_counter <=1;
        else 
@@ -680,7 +699,7 @@ begin
        end if;
       when 1 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(39 downto 32);
+        uart_data_in <= PS(39 downto 32);
        if (uart_wait_for_byte_to_tx = '1' )then
         tx_counter <= 2;
        else 
@@ -688,7 +707,7 @@ begin
        end if;
       when 2 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(31 downto 24);
+        uart_data_in <= PS(31 downto 24);
        if (uart_wait_for_byte_to_tx = '1' ) then
         tx_counter <=3;
        else 
@@ -696,7 +715,7 @@ begin
        end if;
       when 3 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(23 downto 16);
+        uart_data_in <= PS(23 downto 16);
        if (uart_wait_for_byte_to_tx = '1' ) then
         tx_counter <=4;
        else
@@ -704,7 +723,7 @@ begin
        end if;
       when 4 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(15 downto 8);
+        uart_data_in <= PS(15 downto 8);
        if (uart_wait_for_byte_to_tx = '1' ) then
         tx_counter <=5;
        else
@@ -712,15 +731,15 @@ begin
        end if;
       when 5 =>
         transmit_footprint <= '1';
-        uart_data_in <= P(7 downto 0);
+        uart_data_in <= PS(7 downto 0);
        if (uart_wait_for_byte_to_tx = '1' ) then
         tx_counter <= 6;
-        fp_tx_done <= '1';
        else
         tx_counter <= 5;
        end if;
       when 6 =>
         tx_counter <= 0;
+        fp_tx_done <= '1';
         transmit_footprint <= '0';
       when others =>
         tx_counter <= 0;
@@ -786,22 +805,22 @@ end process;
 --    end if; --- end of if rising_edge(clk)
 --  end process;
 
---PRESET: process (rst, clk)
-  --begin
-   --if rising_edge(clk) then
-     --if rst = '1' then                -- sync. reset
+PRESET: process (rst, clk)
+  begin
+   if rising_edge(clk) then
+     if rst = '1' then                -- sync. reset
       --if rising_edge(clk) then
         --ccf <= INIT_VALUE;
         --ccf_prev <= INIT_VALUE;
         --ccf_calc_start <= '0';
         --csa <= INIT_CSA_0 ;
-        --start_wait_for_startaddr <= '1';
+        start_wait_for_startaddr <= '1';
         --ccf_calc_stop <= '0';
         --match_o <= '0';
        --end if;
-      --end if; -- end of if rst = '1'
-    --end if;
-  --end process;
+      end if; -- end of if rst = '1'
+    end if;
+  end process;
 
 --------------------------------------------------------------------
 ---------------start editing srl buffer data out through uart-------------------

@@ -261,7 +261,7 @@ signal outccf_7 : Std_Logic_Vector(31 downto 0); -- Last Byte received--dummy si
 --signal Intrx_O_signal : std_logic;---interrupt
 --signal WB_DAT_I_SIGNAL: Std_Logic_Vector(7 downto 0); -- Last Byte received
 signal ccf_calc_switch_signal : std_logic;--dummy signal
-signal sw_func_or_timed : std_logic;--dummy signal
+signal sw_func_or_timed_s : std_logic;--dummy signal
 
 --------------------------------------
 ----clock divider signals------------
@@ -300,6 +300,8 @@ begin
   
   cgi.pllctrl <= "00";
   cgi.pllrst <= rstraw;
+  led(7) <= ccf_calc_switch_signal;
+  sw_func_or_timed_s <= '0';
 
   rst0 : rstgen generic map (acthigh => 1)
     port map (btn(0), clkm, lock, rstn, rstraw);
@@ -458,7 +460,7 @@ ahbtc0: entity work.ahbtranschecker
     u_tx => RsTx,
     ccf_calc_start_port =>ccf_calc_switch_signal,
 
-    sw_func_or_timed => sw_func_or_timed
+    sw_func_or_timed => sw_func_or_timed_s
   );
 
 ----------end editing------------
@@ -484,8 +486,8 @@ ahbtc0: entity work.ahbtranschecker
   ---   port map (sw(7), ccf_calc_switch_signal(7));
 --------------------------------------------------------------------
  
-outccf_8_pad : outpadv generic map (tech => padtech, width => 8)
-     port map (led(7 downto 0), outccf_7(7 downto 0));
+--outccf_8_pad : outpadv generic map (tech => padtech, width => 8)
+   --  port map (led(7 downto 0), outccf_7(7 downto 0));
 --------------------------------------------------------------------------------
 ----------generating continous input---------------------------------
 --process(clkm)

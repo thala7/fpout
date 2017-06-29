@@ -32,19 +32,37 @@
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">sw(6)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">sw(7)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(0)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(1)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">btn(1)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(2)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
+</msg>
+
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">btn(2)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(3)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">btn(3)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(4)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
+</msg>
+
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">btn(4)_IBUF</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(5)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">led(6)_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">PhyClk25Mhz_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
@@ -59,34 +77,34 @@
 <msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">QuadSpiFlashCS_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
 </msg>
 
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd1_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd5_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd4_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd3_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
-</msg>
-
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd2_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd1_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd3_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
-<msg type="warning" file="ParHelpers" num="362" delta="old" >There are <arg fmt="%d" index="1">4</arg> sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
-
-</msg>
-
-<msg type="warning" file="ParHelpers" num="361" delta="old" >There are <arg fmt="%d" index="1">19</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+<msg type="warning" file="ParHelpers" num="362" delta="old" >There are <arg fmt="%d" index="1">11</arg> sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
 
 </msg>
 
-<msg type="warning" file="Par" num="283" delta="old" >There are <arg fmt="%d" index="1">19</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+<msg type="warning" file="ParHelpers" num="361" delta="old" >There are <arg fmt="%d" index="1">18</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
 </msg>
 
-<msg type="warning" file="Par" num="284" delta="old" >There are <arg fmt="%d" index="1">4</arg> sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
+<msg type="warning" file="Par" num="283" delta="old" >There are <arg fmt="%d" index="1">18</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+<msg type="warning" file="Par" num="284" delta="old" >There are <arg fmt="%d" index="1">11</arg> sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
 
 </msg>
 

@@ -14,7 +14,7 @@ entity timestamps is
   );
   port (
   clk :  in std_ulogic;
- rst :  in std_ulogic;
+ start :  in std_ulogic;
   --ts  :  out std_logic_vector((m-1) downto 0)
  ts  :  out std_logic_vector(31 downto 0)
   );
@@ -26,7 +26,7 @@ architecture timestamps_comp of timestamps is
   constant ts_array : csa := (
 "00000000000000000000000000000001",
 "00000000000000000000000000000010",
-"00000000000000000000000000000011",
+"11111111110010010010000000000011",--"00000000000000000000000000000011",
 "00000000000000000000000000000100",
 "00000000000000000000000000000101",
 "00000000000000000000000000000110",
@@ -1051,10 +1051,10 @@ architecture timestamps_comp of timestamps is
    );
   signal i : integer range 0 to (m-1) := 0;
   begin
-    shift: process (rst, clk)
+    shift: process (clk)
     begin
     if rising_edge(clk) then
-     if rst = '1' then                -- sync. reset
+     if start = '0' then                -- sync. reset
         ts <= "00000000000000000000000000000000";
      else
         ts <= ts_array(i);
