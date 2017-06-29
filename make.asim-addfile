@@ -1,0 +1,9 @@
+
+addfile -vhdl ../../config.vhd
+addfile -vhdl ../../ahbtranschecker.vhd
+addfile -vhdl ../../uartTX.vhd
+addfile -vhdl ../../srl_buffer_32.vhd
+addfile -vhdl ../../timestamps.vhd
+addfile -vhdl ../../ahbrom.vhd
+addfile -vhdl ../../leon3mp.vhd
+addfile -vhdl ../../testbench.vhd

@@ -1,0 +1,294 @@
+Script started on Tuesday 27 June 2017 01:04:19 PM CEST
+    5  sudo ./xsetup -uninstall
+    6  sudo ./xsetup -uninstall
+    7  cd ..
+    8  cd ..
+    9  pwd
+   10  cd lib/lin64
+   11  sudo ./xsetup -uninstall
+   12  sudo bash xsetup -uninstall
+   13  sudo xsetup -uninstall
+   14  exit
+   15  make ise-prog-fpga
+   16  grmon -uart /dev/ttyUSB0 -u
+   17  make ise-prog-fpga
+   18  make ise-prog-fpga
+   19  make ise-prog-fpga
+   20  make ise-prog-fpga
+   21  grmon -digilent -u
+   22  exit
+   23  make ise-prog-fpga
+   24  grmon -digilent -u
+   25  exit
+   26  make ise-prog-fpga
+   27  exit
+   28  cat: /dev/ttyUSB0
+   29  yum install cat
+   30  cat /dev/ttyUSB0
+   31  cat /dev/ttyUSB0
+   32  screen /dev/ttyUSB0
+   33  cat  /dev/ttyUSB0
+   34  make ise-prog-fpga
+   35  make ise-prog-fpga
+   36  grmon -uart /dev/ttyUSB0 -u
+   37  exit
+   38  make ise-prog-fpga
+   39  exit
+   40  make ise-prog-fpga
+   41  exit
+   42  make ise-prog-fpga
+   43  exit
+   44  screen /dev/ttyUSB0
+   45  make ise-prog-fpga
+   46  exit
+   47  make ise-prog-fpga
+   48  make ise-prog-fpga
+   49  exit
+   50  make ise-prog-fpga
+   51  exit
+   52  make ise-prog-fpga
+   53  make ise-prog-fpga
+   54  exit
+   55  make ise-prog-fpga
+   56  exit
+   57  screen /dev/ttyUSB0
+   58  screen /dev/ttyUSB0
+   59  make ise-prog-fpga
+   60  exit
+   61  ls
+   62  exit
+   63  screen /dev/ttyUSB0 230400
+   64  script foo.txt
+   65  screen /dev/ttyUSB0
+   66  script foo1.txt
+   67  make ise-prog-fpga
+   68  exit
+   69  screen /dev/ttyUSB0 115200
+   70  script foo2.txt
+   71  make ise-prog-fpga
+   72  make ise-prog-fpgaexit
+   73  exit
+   74  make ise-prog-fpgaexit
+   75  make ise-prog-fpga
+   76  exit
+   77  script foo3.txt
+   78  screen /dev/ttyUSB0 
+   79  make ise-prog-fpga
+   80  make ise-prog-fpga
+   81  exit
+   82  screen /dev/ttyUSB0 
+   83  screen /dev/ttyUSB0
+   84  screen /dev/ttyUSB0 115200
+   85  screen /dev/ttyUSB0 115200/n/1
+   86  screen /dev/ttyUSB0 9600/n/1
+   87  screen /dev/ttyUSB0 56000/n/1
+   88  screen /dev/ttyUSB0 128000/n/1
+   89  make ise-prog-fpga
+   90  make ise-prog-fpga
+   91  make ise-prog-fpga
+   92  make ise-prog-fpga
+   93  make ise-prog-fpga
+   94  make ise-prog-fpga
+   95  make ise-prog-fpga
+   96  make ise-prog-fpga
+   97  exit
+   98  screen /dev/ttyUSB0 115200/n/1
+   99  screen /dev/ttyUSB0 128000/n/1
+  100  make ise-prog-fpga
+  101  exit
+  102  screen /dev/ttyUSB0 115200/n/1
+  103  screen /dev/ttyUSB0 115200
+  104  yum install tio
+  105  exit
+  106  make ise-prog-fpga
+  107  make ise-prog-fpga
+  108  exit
+  109  putty /dev/ttyUSB0 115200/n/1
+  110  putty 
+  111  exit
+  112  make ise-prog-fpga
+  113  exit
+  114  yum install cu
+  115  yum install */cu
+  116  cu -l /dev/ttyUSB0 115200
+  117  cu USB0@115200
+  118  cat  USB0@115200
+  119  cat /dev/ttyUSB0 115200/n/1
+  120  cat /dev/ttyUSB0 115200/n/1
+  121  cat /dev/ttyUSB0 115200
+  122  exit
+  123  make ise-prog-fpga
+  124  exit
+  125  screen /dev/ttyUSB0 115200/n/1
+  126  screen /dev/ttyUSB0 115207/n/1
+  127  make ise-prog-fpga
+  128  make ise-prog-fpga
+  129  make ise-prog-fpga
+  130  exit
+  131  screen /dev/ttyUSB0 115200/n/1
+  132  screen /dev/ttyUSB0 115200/n/1
+  133  make ise-prog-fpga
+  134  putty
+  135  exit
+  136  screen /dev/ttyUSB0 115200/n/1
+  137  screen /dev/ttyUSB0 115200/n/1
+  138  make ise-prog-fpga
+  139  make ise-prog-fpga
+  140  uname -a
+  141  make ise-prog-fpga
+  142  make ise-prog-fpga
+  143  yum install termite
+  144  exit
+  145  make ise-prog-fpga
+  146  exit
+  147  make ise-prog-fpga
+  148  exit
+  149  make ise-prog-fpga
+  150  exit
+  151  make ise-prog-fpga
+  152  exit
+  153  make ise-prog-fpga
+  154  make ise-prog-fpga
+  155  exit
+  156  make ise-prog-fpga
+  157  exit
+  158  make ise-prog-fpga
+  159  exit
+  160  make ise-prog-fpga
+  161  make ise-prog-fpga
+  162  make ise-prog-fpga
+  163  exit
+  164  make ise-prog-fpga
+  165  make ise-prog-fpga
+  166  exit
+  167  make ise-prog-fpga
+  168  make ise-prog-fpga
+  169  exit
+  170  make ise-prog-fpga
+  171  exit
+  172  make ise-prog-fpga
+  173  exit
+  174  make ise-prog-fpga
+  175  exit
+  176  make ise-prog-fpga
+  177  exit
+  178  make ise-prog-fpga
+  179  exit
+  180  make ise-]777;notify;Command completed;exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#     5  sudo ./xset up -uninstall
+bash: 5: command not found...
+]777;notify;Command completed;5  sudo ./xsetup -uninstall]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#     6  sudo ./xset up -uninstall
+bash: 6: command not found...
+]777;notify;Command completed;6  sudo ./xsetup -uninstall]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#     7  cd ..
+bash: 7: command not found...
+]777;notify;Command completed;7  cd ..]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#     8  cd ..
+bash: 8: command not found...
+]777;notify;Command completed;8  cd ..]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#     9  pwd
+bash: 9: command not found...
+]777;notify;Command completed;9  pwd]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    10  cd lib/lin6 4
+bash: 10: command not found...
+]777;notify;Command completed;10  cd lib/lin64]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    11  sudo ./xset up -uninstall
+bash: 11: command not found...
+]777;notify;Command completed;11  sudo ./xsetup -uninstall]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    12  sudo bash x setup -uninstall
+bash: 12: command not found...
+]777;notify;Command completed;12  sudo bash xsetup -uninstall]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    13  sudo xsetup  -uninstall
+bash: 13: command not found...
+]777;notify;Command completed;13  sudo xsetup -uninstall]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    14  exit
+bash: 14: command not found...
+]777;notify;Command completed;14  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    15  make ise-pr og-fpga
+bash: 15: command not found...
+]777;notify;Command completed;15  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    16  grmon -uart  /dev/ttyUSB0 -u
+bash: 16: command not found...
+]777;notify;Command completed;16  grmon -uart /dev/ttyUSB0 -u]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    17  make ise-pr og-fpga
+bash: 17: command not found...
+]777;notify;Command completed;17  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    18  make ise-pr og-fpga
+bash: 18: command not found...
+]777;notify;Command completed;18  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    19  make ise-pr og-fpga
+bash: 19: command not found...
+]777;notify;Command completed;19  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    20  make ise-pr og-fpga
+bash: 20: command not found...
+]777;notify;Command completed;20  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    21  grmon -digi lent -u
+bash: 21: command not found...
+]777;notify;Command completed;21  grmon -digilent -u]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    22  exit
+bash: 22: command not found...
+]777;notify;Command completed;22  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    23  make ise-pr og-fpga
+digbash: 23: command not found...
+]777;notify;Command completed;23  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    24  grmon -digi lent -u
+bash: 24: command not found...
+]777;notify;Command completed;24  grmon -digilent -u]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    25  exit
+bash: 25: command not found...
+]777;notify;Command completed;25  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    26  make ise-pr og-fpga
+gbash: 26: command not found...
+]777;notify;Command completed;26  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    27  exit
+bash: 27: command not found...
+]777;notify;Command completed;27  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    28  cat: /dev/t tyUSB0
+bash: 28: command not found...
+]777;notify;Command completed;28  cat: /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    29  yum install  cat
+bash: 29: command not found...
+]777;notify;Command completed;29  yum install cat]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    30  cat /dev/tt yUSB0
+bash: 30: command not found...
+]777;notify;Command completed;30  cat /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    31  cat /dev/tt yUSB0
+bash: 31: command not found...
+]777;notify;Command completed;31  cat /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    32  screen /dev /ttyUSB0
+bash: 32: command not found...
+]777;notify;Command completed;32  screen /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    33  cat  /dev/t tyUSB0
+11  exit
+  212  cat /dbash: 33: command not found...
+]777;notify;Command completed;33  cat  /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    34  make ise-pr og-fpga
+bash: 34: command not found...
+]777;notify;Command completed;34  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    35  make ise-pr og-fpga
+bash: 35: command not found...
+]777;notify;Command completed;35  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    36  grmon -uart  /dev/ttyUSB0 -u
+bash: 36: command not found...
+]777;notify;Command completed;36  grmon -uart /dev/ttyUSB0 -u]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    37  exit
+bash: 37: command not found...
+]777;notify;Command completed;37  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    38  make ise-pr og-fpga
+bash: 38: command not found...
+]777;notify;Command completed;38  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    39  exit
+bash: 39: command not found...
+]777;notify;Command completed;39  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    40  make ise-pr og-fpga
+bash: 40: command not found...
+]777;notify;Command completed;40  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    41  exit
+bash: 41: command not found...
+]777;notify;Command completed;41  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    42  make ise-pr og-fpga
+bash: 42: command not found...
+]777;notify;Command completed;42  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    43  exit
+bash: 43: command not found...
+]777;notify;Command completed;43  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    44  screen /dev /ttyUSB0
+bash: 44: command not found...
+]777;notify;Command completed;44  screen /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    45  make ise-pr og-fpga
+bash: 45: command not found...
+]777;notify;Command completed;45  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    46  exit
+bash: 46: command not found...
+]777;notify;Command completed;46  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    47  make ise-pr og-fpga
+bash: 47: command not found...
+]777;notify;Command completed;47  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    48  make ise-pr og-fpga
+bash: 48: command not found...
+]777;notify;Command completed;48  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    49  exit
+bash: 49: command not found...
+]777;notify;Command completed;49  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    50  make ise-pr og-fpga
+bash: 50: command not found...
+]777;notify;Command completed;50  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    51  exit
+ bash: 51: command not found...
+]777;notify;Command completed;51  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    52  make ise-pr og-fpga
+bash: 52: command not found...
+]777;notify;Command completed;52  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    53  make ise-pr og-fpga
+bash: 53: command not found...
+]777;notify;Command completed;53  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    54  exit
+bash: 54: command not found...
+]777;notify;Command completed;54  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    55  make ise-pr og-fpga
+bash: 55: command not found...
+]777;notify;Command completed;55  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    56  exit
+bash: 56: command not found...
+]777;notify;Command completed;56  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    57  screen /dev /ttyUSB0
+bash: 57: command not found...
+]777;notify;Command completed;57  screen /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    58  screen /dev /ttyUSB0
+bash: 58: command not found...
+]777;notify;Command completed;58  screen /dev/ttyUSB0]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    59  make ise-pr og-fpga
+bash: 59: command not found...
+]777;notify;Command completed;59  make ise-prog-fpga]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    60  exit
+bash: 60: command not found...
+]777;notify;Command completed;60  exit]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    61  ls
+bash: 61: command not found...
+]777;notify;Command completed;61  ls]0;karthik7@eduroam-pool12-451:/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX]7;file://eduroam-pool12-451.wlan.uni-bremen.de/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX[root@eduroam-pool12-451 leon3-digilent-nexys3_uart_only_TX]#    62  exit
+bash: 62: command not found...
+]777;notify;Command completed;62  exit]0;karthik7@eduroam-p

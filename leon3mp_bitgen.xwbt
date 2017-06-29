@@ -1,0 +1,7 @@
+INFILE=/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.ncd
+OUTFILE=/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/leon3mp.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX
+LICENSE=WebPack
+USER_INFO=211317719_0_0_532
