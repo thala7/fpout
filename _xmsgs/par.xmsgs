@@ -77,13 +77,13 @@
 <msg type="warning" file="Par" num="289" delta="old" >The signal <arg fmt="%s" index="1">QuadSpiFlashCS_OBUF</arg> has no driver.  PAR will not attempt to route this signal.
 </msg>
 
+<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd4_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd1_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd5_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
-</msg>
-
-<msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd4_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
 </msg>
 
 <msg type="warning" file="Par" num="288" delta="old" >The signal <arg fmt="%s" index="1">eth0.e1/m100.u0/nft.rx_fifo0/xc2v.x0/a0.x0/Mram_rfd2_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.

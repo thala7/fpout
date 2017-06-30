@@ -22,7 +22,8 @@ end;
 
 architecture timestamps_comp of timestamps is 
 
-  type csa is array ((m-1) downto 0) of std_logic_vector(31 downto 0);
+ -- type csa is array ((m-1) downto 0) of std_logic_vector(31 downto 0);
+  type csa is array (1023 downto 0) of std_logic_vector(31 downto 0);
   constant ts_array : csa := (
 "00000000000000000000000000000001",
 "00000000000000000000000000000010",
@@ -1049,17 +1050,35 @@ architecture timestamps_comp of timestamps is
 "00000000000000000000001111111111",
 "00000000000000000000010000000000"
    );
-  signal i : integer range 0 to (m-1) := 0;
+ --signal i : integer range 0 to 1024 := 3;
   begin
     shift: process (clk)
+    
+    variable i : integer range 0 to 1023 := 3;
+   
     begin
     if rising_edge(clk) then
-     if start = '0' then                -- sync. reset
-        ts <= "00000000000000000000000000000000";
+     if start = '1' then                -- sync. reset
+        --ts <= ts_array(i);
+        i := i+1;
+       if (i= 1024) then
+           i := 0;
+        end if;
+       ts <= ts_array(i);
      else
-        ts <= ts_array(i);
-        i <= i+1;
-     end if; -- end of if rst = '1'
+        ts <= "00000000000000000000000000000000";
+     end if; -- end of if start = '0'
+
+    -- if start = '0' then                -- sync. reset
+      --  ts <= "00000000000000000000000000000000";
+     --else
+      --  ts <= ts_array(i);
+       -- i <= i+1;
+       -- if (i= 1023) then
+         --  i <= 0;
+       -- end if;
+       -- ts <= ts_array(i);
+     --end if; -- end of if rst = '1'
     end if; -- end if rising_edge
   end process;
   end;

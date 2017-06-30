@@ -87,7 +87,7 @@ constant CCF_DISTANCE : integer := 1024;
 constant msb          : integer := INIT_VALUE'length - 1;
 
  --signal NC_counter    : integer := 0;
-signal NC_counter    : integer := 0;
+ --signal NC_counter    : integer := 0;
 -- Signals
 
  signal   ccf_calc_stop            : std_logic:='0';
@@ -114,14 +114,14 @@ signal NC_counter    : integer := 0;
 ------------------------------------------------------------------------------------------------------------------------------- 
 --signal   N_counted                  : std_logic_vector(9 downto 0):= "0000000000";
  signal N_counted     : integer range 0 to 1024:= 0;
- signal N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
+-- signal N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
 --signal N_counted_vec: std_logic_vector(10 downto 0):= "00000000";
 
 --N_counted_vec <= std_logic_vector(to_unsigned(N_counted,16));
 signal max_sent_char     : integer range 0 to 101:= 0;
 
 -------------------------
-signal   P : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
+--signal   P : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
 signal   PS : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
 signal tx_counter : integer := 0;
 signal fp_tx_done  : std_logic:='1';
@@ -385,7 +385,8 @@ buffer32: entity work.srl_buffer_32
 
   timestamps_comp : entity work.timestamps
     generic map ( m => 1024)
-    port map (start => ccf_calc_start,
+    port map (start => ccf_calc_en,
+    --start => ccf_calc_start,
     clk => clk,
     ts => ts_signal
              );
@@ -642,43 +643,52 @@ miniuart : entity work.UART_TX
 --------------------------------------------------------
 Uart_Transfer: process (clk)
 variable N_counted_var : integer range 0 to 1024:= 0; 
+variable NC_counter    : integer range 0 to 1024:= 0;
+--variable PS : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
+variable N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
 begin
 
  if rising_edge(clk) then
       
         if ccf_calc_start = '1' then 
-          NC_counter <=  NC_counter + 1;  ---trace-cycle counter
+          NC_counter :=  NC_counter + 1;  ---trace-cycle counter
          end if;    
 
          if (ccf_calc_en = '1') then 
            N_counted <= N_counted + 1;
          end if;
    
-           if (NC_counter = 1023)then
+           if (NC_counter = 1024)then
            --put N_counted anf tcf in bytes to be txed
 
-             if (ccf_calc_en = '1') then N_counted_var := N_counted +1; end if;
-             N_counted_vec <= std_logic_vector(to_unsigned(N_counted_var,16));
+             if (ccf_calc_en = '1') then N_counted_var := N_counted+1; end if;
+             N_counted_vec := std_logic_vector(to_unsigned(N_counted_var,16));
 
-               P(47 downto 40) <= N_counted_vec(15 downto 8);
-               P(39 downto 32) <= N_counted_vec(7 downto 0);
-               P(31 downto 24) <= tcf(31 downto 24);
-               P(23 downto 16) <= tcf(23 downto 16);
-               P(15 downto 8)  <= tcf(15 downto 8);
-               P(7 downto 0)   <= tcf(7 downto 0);
+               PS(47 downto 40) <= N_counted_vec(15 downto 8);
+               PS(39 downto 32) <= N_counted_vec(7 downto 0);
+               PS(31 downto 24) <= tcf(31 downto 24);
+               PS(23 downto 16) <= tcf(23 downto 16);
+               PS(15 downto 8)  <= tcf(15 downto 8);
+               PS(7 downto 0)   <= tcf(7 downto 0);
           --
-               PS(47 downto 0) <= P(47 downto 0);   
+               --PS(47 downto 0) <= P(47 downto 0);   
           --
-               NC_counter <= 0;
+               NC_counter := 0;
                fp_tx_done <= '0';
-               N_counted <= 0; 
-               if (ccf_calc_en = '1') then 
-                  N_counted <= 1; 
-               end if;
+               N_counted <= 0;
+
                transmit_footprint_next_clk <= '1'; 
           --
                
             end if;
+
+         --if (NC_counter = 0) then 
+         --      if (ccf_calc_en = '1') then 
+         --         N_counted <= 1; 
+         --      else
+         --         N_counted <= 0;
+         --      end if;
+         --end if;
 
          if (transmit_footprint_next_clk = '1' ) then
               transmit_footprint <= '1'; 

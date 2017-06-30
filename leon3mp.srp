@@ -1321,7 +1321,7 @@ Elaborating entity <timestamps> (architecture <timestamps_comp>) with generics f
 
 Elaborating entity <UART_TX> (architecture <RTL>) with generics from library <work>.
 INFO:HDLCompiler:679 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/uartTX.vhd" Line 123. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:1127 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 457: Assignment to zero ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 458: Assignment to zero ignored, since the identifier is never used
 WARNING:HDLCompiler:634 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" Line 102: Net <ccf_store_in_buffer_read> does not have a driver.
 
 Elaborating entity <apbctrl> (architecture <rtl>) with generics from library <grlib>.
@@ -2979,11 +2979,11 @@ WARNING:Xst:653 - Signal <cpi_dbg_fsr> is used but never assigned. This sourcele
     Found 64x2-bit Read Only RAM for signal <r_e_ctrl_inst[24]_PWR_42_o_wide_mux_522_OUT>
     Found 4x1-bit Read Only RAM for signal <r_d_cnt[1]_GND_49_o_Mux_790_o>
     Found 4x3-bit Read Only RAM for signal <GND_49_o_GND_49_o_mux_657_OUT>
-    Found 64x2-bit Read Only RAM for signal <_n5859>
-    Found 8x6-bit Read Only RAM for signal <_n5872>
-    Found 32x2-bit Read Only RAM for signal <_n5905>
-    Found 64x13-bit Read Only RAM for signal <_n5970>
-    Found 16x2-bit Read Only RAM for signal <_n6033>
+    Found 64x2-bit Read Only RAM for signal <_n5862>
+    Found 8x6-bit Read Only RAM for signal <_n5932>
+    Found 32x2-bit Read Only RAM for signal <_n5965>
+    Found 64x13-bit Read Only RAM for signal <_n6030>
+    Found 16x2-bit Read Only RAM for signal <_n6093>
     Found 32-bit 5-to-1 multiplexer for signal <r_x_npc[2]_r_d_pc[31]_wide_mux_196_OUT> created at line 2694.
     Found 1-bit 4-to-1 multiplexer for signal <r_x_rstate[1]_rp_error_Mux_343_o> created at line 2903.
     Found 2-bit 4-to-1 multiplexer for signal <r_x_rstate[1]_r_x_rstate[1]_wide_mux_344_OUT> created at line 2903.
@@ -3038,7 +3038,7 @@ WARNING:Xst:653 - Signal <cpi_dbg_fsr> is used but never assigned. This sourcele
     Found 32-bit 3-to-1 multiplexer for signal <dbgi_daddr[7]_GND_49_o_wide_mux_943_OUT> created at line 616.
     Found 32-bit 8-to-1 multiplexer for signal <dbgo_data> created at line 577.
     Found 1-bit 4-to-1 multiplexer for signal <rpin_error> created at line 1095.
-    Found 32-bit 4-to-1 multiplexer for signal <_n4712> created at line 1914.
+    Found 32-bit 4-to-1 multiplexer for signal <_n4711> created at line 1914.
     Found 3-bit comparator equal for signal <dsur_tlim[2]_dsur_tbufcnt[6]_equal_404_o> created at line 729
     Found 4-bit comparator greater for signal <r_w_s_pil[3]_irqi_irl[3]_LessThan_498_o> created at line 2557
     Found 8-bit comparator equal for signal <r_e_ctrl_rd[7]_r_x_ctrl_rd[7]_equal_562_o> created at line 2177
@@ -3300,7 +3300,7 @@ WARNING:Xst:653 - Signal <ictrl.tag(3)> is used but never assigned. This sourcel
     Found 2-bit adder for signal <r_waddress[3]_GND_63_o_add_13_OUT> created at line 1241.
     Found 2-bit adder for signal <ictrl.xaddr_inc> created at line 1241.
     Found 9-bit adder for signal <r_faddr[8]_GND_63_o_add_83_OUT> created at line 1241.
-    Found 4x2-bit Read Only RAM for signal <_n0633>
+    Found 4x2-bit Read Only RAM for signal <_n0634>
     Found 1-bit 4-to-1 multiplexer for signal <ictrl.validv(1)> created at line 171.
     Found 1-bit 4-to-1 multiplexer for signal <ictrl.validv(0)> created at line 171.
     Found 1-bit 4-to-1 multiplexer for signal <ictrl.nvalidv(1)> created at line 171.
@@ -5223,7 +5223,7 @@ WARNING:Xst:653 - Signal <rrsbdrive> is used but never assigned. This sourceless
     Found 1-bit 6-to-1 multiplexer for signal <ctrl.v_echeck> created at line 477.
     Found 1-bit 7-to-1 multiplexer for signal <r_bstate[2]_GND_113_o_Mux_174_o> created at line 477.
     Found 32-bit 3-to-1 multiplexer for signal <ctrl.regsd> created at line 700.
-    Found 3-bit 7-to-1 multiplexer for signal <_n1666> created at line 477.
+    Found 3-bit 7-to-1 multiplexer for signal <_n1649> created at line 477.
     Summary:
 	inferred   2 RAM(s).
 	inferred   1 Adder/Subtractor(s).
@@ -5334,7 +5334,7 @@ WARNING:Xst:647 - Input <ahbsi_testoen> is never used. This port will be preserv
 INFO:Xst:3210 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" line 372: Output port <data_out> of the instance <buffer32> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" line 372: Output port <full> of the instance <buffer32> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" line 372: Output port <data_present> of the instance <buffer32> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" line 399: Output port <o_TX_Active> of the instance <miniuart> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/ahbtranschecker.vhd" line 400: Output port <o_TX_Active> of the instance <miniuart> is unconnected or connected to loadless signal.
 WARNING:Xst:2935 - Signal 'ccf_store_in_buffer_read', unconnected in block 'ahbtranschecker', is tied to its initial value (0).
     Found 1-bit register for signal <ccf_calc_start>.
     Found 32-bit register for signal <prev_addr>.
@@ -5345,11 +5345,9 @@ WARNING:Xst:2935 - Signal 'ccf_store_in_buffer_read', unconnected in block 'ahbt
     Found 32-bit register for signal <outccf>.
     Found 32-bit register for signal <stored_ccf_count>.
     Found 32-bit register for signal <tcf>.
-    Found 32-bit register for signal <NC_counter>.
+    Found 11-bit register for signal <Uart_Transfer.NC_counter>.
     Found 11-bit register for signal <N_counted>.
     Found 11-bit register for signal <Uart_Transfer.N_counted_var>.
-    Found 16-bit register for signal <N_counted_vec>.
-    Found 48-bit register for signal <P>.
     Found 48-bit register for signal <PS>.
     Found 1-bit register for signal <fp_tx_done>.
     Found 1-bit register for signal <transmit_footprint_next_clk>.
@@ -5358,16 +5356,16 @@ WARNING:Xst:2935 - Signal 'ccf_store_in_buffer_read', unconnected in block 'ahbt
     Found 32-bit register for signal <tx_counter>.
     Found 1-bit register for signal <start_wait_for_startaddr>.
     Found 32-bit register for signal <tbi_data(31:0)>.
-    Found 32-bit adder for signal <CCF_CALC_0.counter[31]_GND_325_o_add_58_OUT> created at line 495.
-    Found 32-bit adder for signal <stored_ccf_count[31]_GND_325_o_add_60_OUT> created at line 501.
-    Found 32-bit adder for signal <NC_counter[31]_GND_325_o_add_83_OUT> created at line 650.
-    Found 11-bit adder for signal <N_counted[10]_GND_325_o_add_85_OUT> created at line 654.
-    Found 3-bit 7-to-1 multiplexer for signal <_n0299> created at line 691.
-    Found 32-bit comparator not equal for signal <n0068> created at line 487
-    Found 32-bit comparator greater for signal <GND_325_o_stored_ccf_count[31]_LessThan_58_o> created at line 494
+    Found 32-bit adder for signal <CCF_CALC_0.counter[31]_GND_325_o_add_58_OUT> created at line 496.
+    Found 32-bit adder for signal <stored_ccf_count[31]_GND_325_o_add_60_OUT> created at line 502.
+    Found 11-bit adder for signal <Uart_Transfer.NC_counter[10]_GND_325_o_add_83_OUT> created at line 654.
+    Found 11-bit adder for signal <N_counted[10]_GND_325_o_add_85_OUT> created at line 658.
+    Found 3-bit 7-to-1 multiplexer for signal <_n0289> created at line 701.
+    Found 32-bit comparator not equal for signal <n0068> created at line 488
+    Found 32-bit comparator greater for signal <GND_325_o_stored_ccf_count[31]_LessThan_58_o> created at line 495
     Summary:
 	inferred   4 Adder/Subtractor(s).
-	inferred 468 D-type flip-flop(s).
+	inferred 383 D-type flip-flop(s).
 	inferred   2 Comparator(s).
 	inferred   9 Multiplexer(s).
 Unit <ahbtranschecker> synthesized.
@@ -5375,10 +5373,10 @@ Unit <ahbtranschecker> synthesized.
 Synthesizing Unit <timestamps>.
     Related source file is "/home/karthik7/grlib-gpl-1.4.1-b4156_copy/designs/leon3-digilent-nexys3_uart_only_TX/timestamps.vhd".
         m = 1024
-    Found 10-bit register for signal <i>.
     Found 32-bit register for signal <ts>.
-    Found 10-bit adder for signal <i[9]_GND_327_o_add_1_OUT> created at line 1061.
-    Found 1024x32-bit Read Only RAM for signal <i[9]_GND_327_o_wide_mux_0_OUT>
+    Found 10-bit register for signal <shift.i>.
+    Found 10-bit adder for signal <shift.i[9]_GND_327_o_mux_2_OUT> created at line 1063.
+    Found 1024x32-bit Read Only RAM for signal <shift.i[9]_GND_327_o_wide_mux_3_OUT>
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
@@ -5650,7 +5648,7 @@ WARNING:Xst:647 - Input <apbi_testoen> is never used. This port will be preserve
     Found 10-bit 3-to-1 multiplexer for signal <uartop.v_tshift> created at line 366.
     Found 2-bit 3-to-1 multiplexer for signal <r_txstate[1]_X_106_o_wide_mux_69_OUT> created at line 366.
     Found 3-bit 5-to-1 multiplexer for signal <r_rxstate[2]_X_106_o_wide_mux_105_OUT> created at line 435.
-    Found 32-bit 7-to-1 multiplexer for signal <_n0535> created at line 218.
+    Found 32-bit 7-to-1 multiplexer for signal <_n0534> created at line 218.
     Summary:
 	inferred   4 Adder/Subtractor(s).
 	inferred 118 D-type flip-flop(s).
@@ -5997,7 +5995,7 @@ WARNING:Xst:653 - Signal <ahbmo2_hwrite> is used but never assigned. This source
     Found 32-bit subtractor for signal <GND_343_o_GND_343_o_sub_780_OUT(31:0)> created at line 1308.
     Found 2-bit subtractor for signal <GND_343_o_GND_343_o_sub_781_OUT(1:0)> created at line 1308.
     Found 8x1-bit Read Only RAM for signal <r_ecnt[3]_PWR_130_o_Mux_582_o>
-    Found 16x3-bit Read Only RAM for signal <_n5391>
+    Found 16x3-bit Read Only RAM for signal <_n5155>
     Found 32-bit 12-to-1 multiplexer for signal <comb.vprdata> created at line 695.
     Found 4-bit 12-to-1 multiplexer for signal <r_txdstate[3]_r_txdstate[3]_mux_679_OUT> created at line 831.
     Found 3-bit 8-to-1 multiplexer for signal <r_rxdstate[2]_r_rxdstate[2]_wide_mux_312_OUT> created at line 1055.
@@ -6386,7 +6384,7 @@ Macro Statistics
  1-bit adder                                           : 2
  10-bit adder                                          : 1
  10-bit subtractor                                     : 1
- 11-bit adder                                          : 6
+ 11-bit adder                                          : 7
  11-bit subtractor                                     : 2
  12-bit subtractor                                     : 3
  13-bit adder                                          : 1
@@ -6400,7 +6398,7 @@ Macro Statistics
  3-bit addsub                                          : 1
  3-bit subtractor                                      : 5
  30-bit adder                                          : 5
- 32-bit adder                                          : 5
+ 32-bit adder                                          : 4
  32-bit subtractor                                     : 3
  33-bit adder                                          : 3
  4-bit adder                                           : 2
@@ -6415,15 +6413,15 @@ Macro Statistics
  8-bit subtractor                                      : 3
  9-bit adder                                           : 1
  9-bit subtractor                                      : 1
-# Registers                                            : 770
+# Registers                                            : 768
  1-bit register                                        : 437
  10-bit register                                       : 6
- 11-bit register                                       : 9
+ 11-bit register                                       : 10
  12-bit register                                       : 3
  13-bit register                                       : 1
  14-bit register                                       : 2
  15-bit register                                       : 4
- 16-bit register                                       : 6
+ 16-bit register                                       : 5
  18-bit register                                       : 3
  2-bit register                                        : 65
  20-bit register                                       : 2
@@ -6431,11 +6429,11 @@ Macro Statistics
  25-bit register                                       : 1
  3-bit register                                        : 33
  30-bit register                                       : 16
- 32-bit register                                       : 68
+ 32-bit register                                       : 67
  33-bit register                                       : 1
  35-bit register                                       : 2
  4-bit register                                        : 33
- 48-bit register                                       : 4
+ 48-bit register                                       : 3
  5-bit register                                        : 18
  6-bit register                                        : 8
  65-bit register                                       : 1
@@ -6559,10 +6557,11 @@ WARNING:Xst:2404 -  FFs/Latches <r_applength<15:10>> (without init value) have a
 WARNING:Xst:2404 -  FFs/Latches <r_done_ack<1:1>> (without init value) have a constant value of 0 in block <greth_rx>.
 
 Synthesizing (advanced) Unit <ahbtranschecker>.
+The following registers are absorbed into counter <N_counted>: 1 register on signal <N_counted>.
+The following registers are absorbed into counter <Uart_Transfer.NC_counter>: 1 register on signal <Uart_Transfer.NC_counter>.
 The following registers are absorbed into counter <stored_ccf_count>: 1 register on signal <stored_ccf_count>.
-The following registers are absorbed into counter <NC_counter>: 1 register on signal <NC_counter>.
 The following registers are absorbed into counter <CCF_CALC_0.counter>: 1 register on signal <CCF_CALC_0.counter>.
-INFO:Xst:3226 - The RAM <timestamps_comp/Mram_i[9]_GND_327_o_wide_mux_0_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <timestamps_comp/ts>
+INFO:Xst:3226 - The RAM <timestamps_comp/Mram_shift.i[9]_GND_327_o_wide_mux_3_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <timestamps_comp/ts>
     -----------------------------------------------------------------------
     | ram_type           | Block                               |          |
     -----------------------------------------------------------------------
@@ -6571,10 +6570,10 @@ INFO:Xst:3226 - The RAM <timestamps_comp/Mram_i[9]_GND_327_o_wide_mux_0_OUT> wil
     |     mode           | write-first                         |          |
     |     clkA           | connected to signal <clk>           | rise     |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <(timestamps_comp/i(9),timestamps_comp/i(8),timestamps_comp/i(7),timestamps_comp/i(6),timestamps_comp/i(5),timestamps_comp/i(4),timestamps_comp/i(3),timestamps_comp/i(2),timestamps_comp/i(1),timestamps_comp/i(0))> |          |
+    |     addrA          | connected to signal <(timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(9),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(8),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(7),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(6),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(5),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(4),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(3),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(2),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(1),timestamps_comp/shift.i[9]_GND_327_o_mux_2_OUT(0))> |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <ts_signal>     |          |
-    |     dorstA         | connected to signal <ccf_calc_start> | low      |
+    |     dorstA         | connected to signal <ccf_calc_en>   | low      |
     | reset value        | 00000000000000000000000000000000               |
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
@@ -6647,7 +6646,7 @@ INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the 
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <r_ecnt> prevents it from being combined with the RAM <Mram__n5391> for implementation as read-only block RAM.
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <r_ecnt> prevents it from being combined with the RAM <Mram__n5155> for implementation as read-only block RAM.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6727,7 +6726,7 @@ INFO:Xst:3231 - The small RAM <Mram_GND_49_o_GND_49_o_mux_657_OUT> will be imple
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n5872> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n5932> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6738,7 +6737,7 @@ INFO:Xst:3231 - The small RAM <Mram__n5872> will be implemented on LUTs in order
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n5905> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n5965> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6749,7 +6748,7 @@ INFO:Xst:3231 - The small RAM <Mram__n5905> will be implemented on LUTs in order
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n5970> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n6030> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6760,7 +6759,7 @@ INFO:Xst:3231 - The small RAM <Mram__n5970> will be implemented on LUTs in order
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n6033> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n6093> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6771,7 +6770,7 @@ INFO:Xst:3231 - The small RAM <Mram__n6033> will be implemented on LUTs in order
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n5859> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n5862> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6830,7 +6829,7 @@ Unit <mmu_dcache> synthesized (advanced).
 Synthesizing (advanced) Unit <mmu_icache>.
 The following registers are absorbed into counter <r_rndcnt_0>: 1 register on signal <r_rndcnt_0>.
 The following registers are absorbed into counter <r_faddr>: 1 register on signal <r_faddr>.
-INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <r_istate> prevents it from being combined with the RAM <Mram__n0633> for implementation as read-only block RAM.
+INFO:Xst:3212 - HDL ADVISOR - Asynchronous or synchronous initialization of the register <r_istate> prevents it from being combined with the RAM <Mram__n0634> for implementation as read-only block RAM.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -6858,7 +6857,7 @@ INFO:Xst:3231 - The small RAM <Mram_rm_state[1]_GND_51_o_Mux_2_o> will be implem
 Unit <mul32> synthesized (advanced).
 
 Synthesizing (advanced) Unit <timestamps>.
-The following registers are absorbed into counter <i>: 1 register on signal <i>.
+The following registers are absorbed into counter <shift.i>: 1 register on signal <shift.i>.
 Unit <timestamps> synthesized (advanced).
 WARNING:Xst:2677 - Node <r_haddr_11> of sequential type is unconnected in block <ahbctrl>.
 WARNING:Xst:2677 - Node <r_haddr_12> of sequential type is unconnected in block <ahbctrl>.
@@ -6914,9 +6913,10 @@ Macro Statistics
  8x6-bit single-port distributed Read Only RAM         : 1
 # Multipliers                                          : 1
  33x33-bit registered multiplier                       : 1
-# Adders/Subtractors                                   : 105
+# Adders/Subtractors                                   : 107
+ 10-bit adder                                          : 1
  10-bit subtractor                                     : 1
- 11-bit adder                                          : 6
+ 11-bit adder                                          : 7
  11-bit subtractor                                     : 2
  12-bit subtractor                                     : 3
  13-bit adder                                          : 1
@@ -6944,17 +6944,18 @@ Macro Statistics
  8-bit subtractor                                      : 3
  9-bit adder                                           : 1
  9-bit subtractor                                      : 1
-# Counters                                             : 14
+# Counters                                             : 15
  1-bit up counter                                      : 2
  10-bit up counter                                     : 1
+ 11-bit up counter                                     : 2
  14-bit up counter                                     : 1
  2-bit down counter                                    : 2
  2-bit up counter                                      : 3
  3-bit down counter                                    : 1
- 32-bit up counter                                     : 3
+ 32-bit up counter                                     : 2
  9-bit up counter                                      : 1
-# Registers                                            : 4629
- Flip-Flops                                            : 4629
+# Registers                                            : 4554
+ Flip-Flops                                            : 4554
 # Comparators                                          : 115
  11-bit comparator equal                               : 1
  11-bit comparator greater                             : 7
@@ -7059,23 +7060,16 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1293 - FF/Latch <tx_counter_20> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_21> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_22> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_23> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_24> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_25> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_26> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_27> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_28> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_29> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_30> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_31> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <N_counted_vec_11> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <N_counted_vec_12> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <N_counted_vec_13> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <N_counted_vec_14> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <N_counted_vec_15> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <tx_counter_19> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_18> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_17> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_16> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_15> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_14> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_13> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_12> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_11> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_10> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_9> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_8> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_7> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
@@ -7083,16 +7077,37 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_6> has a
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_5> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_4> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_3> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_10> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_11> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_12> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_13> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_14> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_15> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_16> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_17> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_18> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_19> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_47> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_46> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_45> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_44> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_43> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_31> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_30> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_29> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_28> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_27> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_26> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_25> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_24> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_23> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_22> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_21> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tx_counter_20> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_31> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_30> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_29> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_28> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_27> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_26> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_25> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_24> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_23> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_22> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_21> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_20> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_19> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_18> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_17> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_16> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_15> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
@@ -7111,27 +7126,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_2> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_1> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_0> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_31> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_30> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_29> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_28> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_27> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_26> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_25> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_24> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_23> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_22> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_21> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_20> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_19> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ccf_store_in_buffer_18> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <P_47> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <P_46> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <P_43> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <P_44> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <P_45> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_0> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_1> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_2> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_3> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_4> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
@@ -7146,27 +7140,24 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_12> (without
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_13> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_14> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_15> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_31> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_30> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_29> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_28> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_27> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_26> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_25> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_24> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_23> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_22> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_21> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_20> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_19> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_18> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_17> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_16> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_43> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_44> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_45> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_46> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PS_47> has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_17> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_18> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_19> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_20> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_21> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_22> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_23> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_24> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_25> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_26> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_27> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_28> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_29> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_30> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_31> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_1> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <outccf_0> (without init value) has a constant value of 0 in block <ahbtranschecker>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <r_lock> (without init value) has a constant value of 0 in block <mmu_icache>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_trans_op> (without init value) has a constant value of 0 in block <mmu_icache>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <r_lrr> (without init value) has a constant value of 0 in block <mmu_dcache>. This FF/Latch will be trimmed during the optimization process.
@@ -7232,17 +7223,17 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_mcasthash_3> (wit
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_mcasthash_4> (without init value) has a constant value of 0 in block <greth_rx>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_mcasthash_5> (without init value) has a constant value of 0 in block <greth_rx>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_rxen_1> (without init value) has a constant value of 1 in block <greth_rx>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_10> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_10> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_0> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_0> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_1> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_1> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_2> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_2> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_3> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_3> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_4> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_4> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_5> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_5> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_6> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_6> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_7> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_7> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_8> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_8> 
-INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_9> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <N_counted_vec_9> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_0> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_32> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_1> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_33> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_2> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_34> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_3> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_35> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_10> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_42> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_4> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_36> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_5> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_37> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_6> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_38> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_7> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_39> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_8> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_40> 
+INFO:Xst:2261 - The FF/Latch <Uart_Transfer.N_counted_var_9> in Unit <ahbtranschecker> is equivalent to the following FF/Latch, which will be removed : <PS_41> 
 INFO:Xst:2261 - The FF/Latch <r_a_ctrl_inst_0> in Unit <iu3> is equivalent to the following FF/Latch, which will be removed : <r_a_rfa2_0> 
 INFO:Xst:2261 - The FF/Latch <r_a_ctrl_inst_1> in Unit <iu3> is equivalent to the following FF/Latch, which will be removed : <r_a_rfa2_1> 
 INFO:Xst:2261 - The FF/Latch <r_a_ctrl_inst_2> in Unit <iu3> is equivalent to the following FF/Latch, which will be removed : <r_a_rfa2_2> 
@@ -7786,51 +7777,31 @@ WARNING:Xst:2677 - Node <dcomgen.dcom0/dcom_uart0/r_txclk_2> of sequential type 
 WARNING:Xst:2677 - Node <dcomgen.dcom0/dcom_uart0/r_txclk_1> of sequential type is unconnected in block <leon3mp>.
 WARNING:Xst:2677 - Node <dcomgen.dcom0/dcom_uart0/r_txclk_0> of sequential type is unconnected in block <leon3mp>.
 WARNING:Xst:2677 - Node <dcomgen.dcom0/dcom_uart0/r_txtick> of sequential type is unconnected in block <leon3mp>.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_7> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_6> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_5> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_4> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_3> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_2> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_1> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_0> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rxstate_1> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rxstate_0> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_fedge> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_7> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_6> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_5> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_4> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_3> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_2> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_1> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_0> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ua1.uart1/r_rxstate_2> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ua1.uart1/r_rxstate_1> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <ua1.uart1/r_rxstate_0> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_31> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_30> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_29> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_28> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_27> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_26> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_25> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_24> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_23> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_22> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_21> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_20> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_19> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_18> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_17> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_16> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_15> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_14> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_13> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_12> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_11> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <ahbtc0/NC_counter_10> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ua1.uart1/r_rxstate_1> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ua1.uart1/r_rxstate_2> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_0> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_1> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_2> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_3> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_4> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_5> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_6> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ua1.uart1/r_rshift_7> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_fedge> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rxstate_0> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rxstate_1> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_0> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_1> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_2> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_3> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_4> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_5> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_6> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dcomgen.dcom0/dcom_uart0/r_rshift_7> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/c0mmu/dcache0/r_flushl2> (without init value) has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ahbtc0/ccf_calc_en> (without init value) has a constant value of 1 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ahbtc0/Uart_Transfer.NC_counter_10> has a constant value of 0 in block <leon3mp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <dcomgen.dcom0/dcom_uart0/r_rxtick> is unconnected in block <leon3mp>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <ua1.uart1/r_rxtick> is unconnected in block <leon3mp>.
 WARNING:Xst:2677 - Node <dcomgen.dcom0/dcom_uart0/r_tick> of sequential type is unconnected in block <leon3mp>.
@@ -7899,3 +7870,340 @@ XCF parsing done.
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 0) on block leon3mp, actual ratio is 142.
 Optimizing block <leon3mp> to meet ratio 100 (+ 0) of 2278 slices :
+WARNING:Xst:2254 - Area constraint could not be met for block <leon3mp>, final ratio is 142.
+Replicating register mg2.sr1/r_address_26 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_25 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_24 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_23 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_22 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_21 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_20 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_19 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_18 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_17 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_16 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_15 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_14 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_13 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_12 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_11 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_10 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_9 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_8 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_7 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_6 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_5 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_4 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_3 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_2 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_address_1 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_bdrive_0 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_31 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_30 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_29 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_28 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_27 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_26 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_25 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_24 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_23 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_22 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_21 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_20 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_19 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_18 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_17 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_writedata_16 to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/tx_rmii0.tx0/r_txd_3 to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/tx_rmii0.tx0/r_txd_2 to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/tx_rmii0.tx0/r_txd_1 to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/tx_rmii0.tx0/r_txd_0 to handle IOB=TRUE attribute
+Replicating register mg2.sr1/r_oen to handle IOB=TRUE attribute
+Replicating register rst0/rstoutl to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/r_mdioclk to handle IOB=TRUE attribute
+Replicating register eth0.e1/m100.u0/ethc0/r_mdioo to handle IOB=TRUE attribute
+
+FlipFlop leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_d_inst_0_21 has been replicated 1 time(s)
+FlipFlop leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_d_inst_0_30 has been replicated 1 time(s)
+FlipFlop leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_d_inst_0_31 has been replicated 1 time(s)
+FlipFlop leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_mexc has been replicated 1 time(s)
+FlipFlop rst0/rstoutl_1 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+Processing Unit <leon3mp> :
+	Found 5-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/dsur_cfc_4>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_cwp_2>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_cwp_1>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_cwp_0>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_29>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_28>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_27>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_26>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_25>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_18>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_17>.
+	Found 4-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_16>.
+	Found 4-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_15>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_14>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_13>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_12>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_11>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_10>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_9>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_8>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_7>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_6>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_5>.
+	Found 4-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_4>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_3>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_2>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_1>.
+	Found 3-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_x_ctrl_inst_0>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_18>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_17>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_14>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_11>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_10>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_9>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_8>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_7>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_6>.
+	Found 2-bit shift register for signal <leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ctrl_inst_5>.
+	Found 2-bit shift register for signal <eth0.e1/m100.u0/ethc0/tx_rmii0.tx0/r_fullduplex_1>.
+Unit <leon3mp> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3916
+ Flip-Flops                                            : 3916
+# Shift Registers                                      : 39
+ 2-bit shift register                                  : 25
+ 3-bit shift register                                  : 10
+ 4-bit shift register                                  : 3
+ 5-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : leon3mp.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 9958
+#      GND                         : 1
+#      INV                         : 59
+#      LUT1                        : 215
+#      LUT2                        : 508
+#      LUT3                        : 786
+#      LUT4                        : 1071
+#      LUT5                        : 1987
+#      LUT6                        : 4231
+#      MUXCY                       : 531
+#      MUXF7                       : 115
+#      MUXF8                       : 1
+#      VCC                         : 1
+#      XORCY                       : 452
+# FlipFlops/Latches                : 3955
+#      FD                          : 657
+#      FDC                         : 27
+#      FDE                         : 2202
+#      FDP                         : 17
+#      FDPE                        : 5
+#      FDR                         : 322
+#      FDRE                        : 619
+#      FDS                         : 40
+#      FDSE                        : 66
+# RAMS                             : 34
+#      RAM16X1D                    : 2
+#      RAM32M                      : 5
+#      RAMB16BWER                  : 27
+# Shift Registers                  : 39
+#      SRLC16E                     : 39
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 76
+#      IBUF                        : 10
+#      IBUFG                       : 3
+#      IOBUF                       : 17
+#      OBUF                        : 46
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# DSPs                             : 4
+#      DSP48A1                     : 4
+# Others                           : 2
+#      BSCAN_SPARTAN6              : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            3854  out of  18224    21%  
+ Number of Slice LUTs:                 8920  out of   9112    97%  
+    Number used as Logic:              8857  out of   9112    97%  
+    Number used as Memory:               63  out of   2176     2%  
+       Number used as RAM:               24
+       Number used as SRL:               39
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   9351
+   Number with an unused Flip Flop:    5497  out of   9351    58%  
+   Number with an unused LUT:           431  out of   9351     4%  
+   Number of fully used LUT-FF pairs:  3423  out of   9351    36%  
+   Number of unique control sets:       295
+
+IO Utilization: 
+ Number of IOs:                         100
+ Number of bonded IOBs:                  76  out of    232    32%  
+    IOB Flip Flops/Latches:             101
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               27  out of     32    84%  
+    Number using Block RAM only:         27
+ Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
+ Number of DSP48A1s:                      4  out of     32    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+clk                                | clkgen0/xc3s.v/dll0:CLKFX| 3598  |
+ahbjtaggen0.ahbjtag0/lltck         | BUFG                     | 117   |
+PhyRxClk                           | IBUFG+BUFG               | 157   |
+PhyTxClk                           | IBUFG+BUFG               | 157   |
+-----------------------------------+--------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 13.513ns (Maximum Frequency: 74.001MHz)
+   Minimum input arrival time before clock: 7.465ns
+   Maximum output required time after clock: 4.118ns
+   Maximum combinational path delay: 4.965ns
+
+=========================================================================
+Timing constraint: NET clk PERIOD = 10 nS HIGH 5 nS
+  Clock period: 9.797ns (frequency: 102.072MHz)
+  Total number of paths / destination ports: 16750553 / 8294
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  0.203ns
+  Source:               leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ldbp1 (FF)
+  Destination:          leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod3 (DSP)
+  Data Path Delay:      19.594ns (Levels of Logic = 4)
+  Source Clock:         clk rising 0.5X at 0.000ns
+  Destination Clock:    clk rising 0.5X at 20.000ns
+
+  Data Path: leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ldbp1 (FF) to leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod3 (DSP)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            75   0.525   2.015  leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ldbp1 (leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/r_e_ldbp1)
+     LUT3:I2->O           12   0.254   1.068  leon3gen.cpu[0].u0/leon3x0/vhdl.p0/iu/Mmux_comb.ex_op1210 (leon3gen.cpu[0].u0/leon3x0/vhdl.p0/divi_op1(1))
+     DSP48A1:A1->P47      18   5.220   1.234  leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod (leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod_P47_to_xm3232.m3232/pipe2.arch0.dwm/Mmult_prod1)
+     DSP48A1:C30->PCOUT47    1   3.149   0.000  leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod1 (leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod1_PCOUT_to_xm3232.m3232/pipe2.arch0.dwm/Mmult_prod2_PCIN_47)
+     DSP48A1:PCIN47->P47   18   2.645   1.234  leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod2 (leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod2_P47_to_xm3232.m3232/pipe2.arch0.dwm/Mmult_prod3)
+     DSP48A1:C30               2.250          leon3gen.cpu[0].u0/leon3x0/vhdl.p0/mgen.mul0/xm3232.m3232/pipe2.arch0.dwm/Mmult_prod3
+    ----------------------------------------
+    Total                     19.594ns (14.043ns logic, 5.551ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock PhyRxClk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PhyRxClk       |    8.524|         |         |         |
+clk            |    5.757|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PhyTxClk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PhyTxClk       |   11.788|         |         |         |
+clk            |    9.374|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ahbjtaggen0.ahbjtag0/lltck
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+ahbjtaggen0.ahbjtag0/lltck|    5.317|    4.114|    6.757|         |
+clk                       |    6.121|         |    6.121|         |
+--------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+PhyRxClk                  |   14.373|         |         |         |
+PhyTxClk                  |    2.831|         |         |         |
+ahbjtaggen0.ahbjtag0/lltck|    2.991|    2.991|         |         |
+clk                       |   19.594|         |         |         |
+--------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 229.00 secs
+Total CPU time to Xst completion: 227.70 secs
+ 
+--> 
+
+
+Total memory usage is 873092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings : 2572 (   0 filtered)
+Number of infos    :  405 (   0 filtered)
+
