@@ -13,17 +13,16 @@ entity timestamps is
   m : integer := 1024
   );
   port (
-  clk :  in std_ulogic;
+  clk  :  in std_ulogic;
  start :  in std_ulogic;
-  --ts  :  out std_logic_vector((m-1) downto 0)
- ts  :  out std_logic_vector(31 downto 0)
+ ts    :  out std_logic_vector(31 downto 0)
   );
 end;
 
 architecture timestamps_comp of timestamps is 
 
  -- type csa is array ((m-1) downto 0) of std_logic_vector(31 downto 0);
-  type csa is array (1023 downto 0) of std_logic_vector(31 downto 0);
+  type csa is array (0 to 1023) of std_logic_vector(31 downto 0);
   constant ts_array : csa := (
 "00000000000000000000000000000001",
 "00000000000000000000000000000010",
@@ -1054,7 +1053,7 @@ architecture timestamps_comp of timestamps is
   begin
     shift: process (clk)
     
-    variable i : integer range 0 to 1023 := 3;
+    variable i : integer range 0 to 1024 := 0;
    
     begin
     if rising_edge(clk) then

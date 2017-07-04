@@ -82,7 +82,7 @@ constant TIMEBITS     : integer := 32;
 constant INIT_CSA_0   : std_logic_vector:= X"0F551C5466A295CA83B00A5B94752A1F9534F4E68B33CD3DA80B5805F2D7C3C26C519FAFA37AF1385CBDF2CABBBA347C2772791FCB53F232C0AD0CA93BD59158";
 constant INIT_VALUE   : std_logic_vector:= X"00000000";
 constant SYNC_RESET   : integer := 1;--(range 0 to 1);  -- use sync./async reset
-constant N_CCF        : integer := 100;
+constant N_CCF        : integer := 1000;
 constant CCF_DISTANCE : integer := 1024;
 constant msb          : integer := INIT_VALUE'length - 1;
 
@@ -469,8 +469,8 @@ miniuart : entity work.UART_TX
 	    if start_wait_for_startaddr = '1' then --  now when start_wait_for_startaddr =1 , i.e. after reset
 	          if curr_addr = X"40000000" or prev_addr = X"40000000" then
 --------------------------------------------------------------------------------------------------------------
-                     ccf_calc_start <= ccf_calc_start_port;
-	            --ccf_calc_start <= '1';
+                    --ccf_calc_start <= ccf_calc_start_port;
+	            ccf_calc_start <= '1';
 -------------------------------------------------------------------------------------------------------------
 
 	            --start_wait_for_startaddr <= '0';
@@ -483,8 +483,8 @@ miniuart : entity work.UART_TX
       if ccf_calc_start = '1' and ccf_calc_stop /= '1' then
          
         if ccf_func_not_timed = '0' then
-           ccf_calc_en <= '1'; -- timed
-        else -- ccf_func_not_timed = 1 
+           ccf_calc_en <= '1'; -- when =1 all the time, it means considering the case of a change every clock-cycle
+        else -- ccf_func_not_timed = 1  --, here only a change when there is a change in the address
            if curr_addr /= prev_addr then 
                ccf_calc_en <= '1';
            else 
@@ -545,32 +545,13 @@ miniuart : entity work.UART_TX
     -----
   end process;
  
-  --CCF_CALC : process (clk)
- -- begin
-  --  if rising_edge(clk) then
-    ---    if ccf_calc_en = '1' then 
-       --    ccf_prev <= ccf;
-       --    ccf <= tbi.data(31 downto 0) xor tbi.data(63 downto 32) xor csa32 xor ccf_prev ;           
-     --   end if;
-   -- end if;        
-  --end process;
 
---Assigning the timestamps  
-  --CSA32_CALC : process (clk)
-  --begin
-   -- if ccf_calc_start = '1' and ccf_calc_stop /= '1' then
-    --  if rising_edge(clk) then
-      --  csa <= csa(0) & csa(INIT_CSA_0'length-1 downto 1);
-       -- csa32 <= csa(31 downto 0);
-     -- end if;
-    --end if;
-  --end process;
 
 --Calculating the the temporal cyclic footprints (from which temporal check can be reconstructed) 
   TCF_CALC : process (clk)
   begin
     if rising_edge(clk) then
-        if ccf_calc_en = '1' then 
+        if ccf_calc_start = '1' then 
           --tcf_prev <= tcf;
           --tcf <= csa32 xor tcf_prev ;   
            tcf <= ts_signal;          
@@ -580,65 +561,7 @@ miniuart : entity work.UART_TX
 
 
 -------------------------------------
-----------uart ack checking---------------
--- uart_ack : process (clk)
- -- variable max_sent_char := integer range 0 to 101:= 0;
- -- begin
-   -- if rising_edge(clk) then
-    -- NC_counter <=  NC_counter + 1;
-   --   if (NC_counter < N_CCF) and (stop_tx /= '1') then
-      
-    --     if uart_wait_for_byte_to_tx = '1' then  
-    --      transmit_footprint <= '1';
-    --      uart_data_in <= "00001010";
-    --     else
-    --      transmit_footprint <= '1';
-    --      uart_data_in <= "00001000";  
-    --     end if;
-  --   else 
-  --    stop_tx <= '1';
-  --    transmit_footprint <= '0';
-  --   end if;
-    --if NC_counter = 10000 then
-      -- if ccf_calc_en = '1' then 
-        --   if (ccf_calc_en = '1') then 
-        --  N_counted <= N_counted + 1;
-      --if uart_wait_for_byte_to_tx = '1' then  
-    --if uart_wait_for_byte_to_tx = '1' and ccf_calc_en = '1' then              
-         -- max_sent_char <= max_sent_char + 1;
-        --  N_counted_vec <= std_logic_vector(to_unsigned(N_counted,8)); 
-        --  uart_data_in <= "00001010";
-       --else
-         -- uart_data_in <= "00001000";  
-       --end if;
-    --NC_counter <= 0;
-    --end if; 
- --  end if;        
---  end process;
-----------end uart ack chexcking-------------
--------------------------------------------
 
-  --- Calculating functional checks
- -- FC_CALC : process (clk)
- -- begin
-    --if rising_edge(clk) then
-     --  if ccf_calc_en = '1' then 
-       --    fc_prev <= fc;
-       --   fc <= tbi.data(63 downto 32) xor fc_prev ;           
---end if;
-  --  end if;        
-  --end process;
-
-  --- Calculating N
-  --N_CALC : process (clk)
-  --begin
-  --if rising_edge(clk) then 
-  -- if (ccf_calc_en = '1') then 
-  --    N_counted <= N_counted + 1;
-  -- end if
-     
-  --end if;        
-  --end process;
   
 --------------------------------------------------------
 Uart_Transfer: process (clk)
