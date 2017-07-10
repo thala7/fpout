@@ -110,10 +110,11 @@ constant msb          : integer := INIT_VALUE'length - 1;
  
  signal   match_o: std_logic;             -- CCF match flag
  signal   ccf , ccfa, csa32, ccf_prev: std_logic_vector(msb downto 0):= X"00000000"; -- CCF output & intermediate values
- signal   tcf_prev, tcf, fc, fc_prev : std_logic_vector(msb downto 0):= X"00000000";
+ signal   tcf_prev, fc, fc_prev : std_logic_vector(msb downto 0):= X"00000000";
+ signal   tcf : std_logic_vector(31 downto 0):= "00000000000000000000000000000001"; -- initialized to ts(0)
 ------------------------------------------------------------------------------------------------------------------------------- 
 --signal   N_counted                  : std_logic_vector(9 downto 0):= "0000000000";
- signal N_counted     : integer range 0 to 1024:= 0;
+ signal N_counted     : integer range 0 to 1024:= 1; --initialized to 1 because the first value is considered different than an old NULL init value
 -- signal N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
 --signal N_counted_vec: std_logic_vector(10 downto 0):= "00000000";
 
@@ -280,9 +281,9 @@ ctrl : process(rst, ahbmi, ahbsi, r, tbo)
 -- trace buffer index and delay counters
     --if r.enable = '1' 
     --then 
-    v.timer := r.timer + 1; 
+    --v.timer := r.timer + 1; 
     --end if;
-    aindex := r.aindex + 1;
+    --aindex := r.aindex + 1;
 
 -- check for AHB watchpoints
 --deleted part    
@@ -385,8 +386,9 @@ buffer32: entity work.srl_buffer_32
 
   timestamps_comp : entity work.timestamps
     generic map ( m => 1024)
-    port map (start => ccf_calc_en,
-    --start => ccf_calc_start,
+    port map (
+    ---start => ccf_calc_en,
+    start => ccf_calc_start,
     clk => clk,
     ts => ts_signal
              );
@@ -551,11 +553,11 @@ miniuart : entity work.UART_TX
   TCF_CALC : process (clk)
   begin
     if rising_edge(clk) then
-        if ccf_calc_start = '1' then 
+        --if ccf_calc_start = '1' then 
           --tcf_prev <= tcf;
           --tcf <= csa32 xor tcf_prev ;   
            tcf <= ts_signal;          
-        end if;
+        --end if;
     end if;        
   end process;
 
@@ -567,8 +569,8 @@ miniuart : entity work.UART_TX
 Uart_Transfer: process (clk)
 variable N_counted_var : integer range 0 to 1024:= 0; 
 variable NC_counter    : integer range 0 to 1024:= 0;
---variable PS : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
-variable N_counted_vec: std_logic_vector(15 downto 0):= "0000000000000000";
+--variable tcf_v         : std_logic_vector(31 downto 0):= "00000000000000000000000000000000";
+variable N_counted_vec : std_logic_vector(15 downto 0):= "0000000000000000";
 begin
 
  if rising_edge(clk) then
@@ -584,7 +586,10 @@ begin
            if (NC_counter = 1024)then
            --put N_counted anf tcf in bytes to be txed
 
-             if (ccf_calc_en = '1') then N_counted_var := N_counted+1; end if;
+             if (ccf_calc_en = '1') then 
+	        N_counted_var := N_counted+1; 
+		--tcf_v := tcf;
+	     end if;
              N_counted_vec := std_logic_vector(to_unsigned(N_counted_var,16));
 
                PS(47 downto 40) <= N_counted_vec(15 downto 8);

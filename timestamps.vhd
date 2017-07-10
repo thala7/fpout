@@ -13,8 +13,8 @@ entity timestamps is
   m : integer := 1024
   );
   port (
-  clk  :  in std_ulogic;
  start :  in std_ulogic;
+ clk  :  in std_ulogic;
  ts    :  out std_logic_vector(31 downto 0)
   );
 end;
@@ -1053,20 +1053,19 @@ architecture timestamps_comp of timestamps is
   begin
     shift: process (clk)
     
-    variable i : integer range 0 to 1024 := 0;
+    variable i : integer range 0 to 1024 := 1;
    
     begin
     if rising_edge(clk) then
-     if start = '1' then                -- sync. reset
-        --ts <= ts_array(i);
-        i := i+1;
-       if (i= 1024) then
+     if start = '1' then               
+         i := i+1;
+         if (i= 1024) then
            i := 0;
-        end if;
-       ts <= ts_array(i);
-     else
+         end if;
+        ts <= ts_array(i);
+       else
         ts <= "00000000000000000000000000000000";
-     end if; -- end of if start = '0'
+       end if; -- end of if start = '0'
 
     -- if start = '0' then                -- sync. reset
       --  ts <= "00000000000000000000000000000000";

@@ -14,7 +14,7 @@ EFFORT=high
 XSTOPT=-uc leon3mp.xcf
 SYNPOPT="set_option -pipe 1; set_option -retiming 1; set_option -write_apr_constraint 0"
 
-VHDLSYNFILES=config.vhd  ahbtranschecker.vhd uartTX.vhd srl_buffer_32.vhd timestamps.vhd ahbrom.vhd leon3mp.vhd
+VHDLSYNFILES=config.vhd uartTX.vhd srl_buffer_32.vhd timestamps.vhd ahbtranschecker.vhd ahbrom.vhd leon3mp.vhd
  
 VHDLSIMFILES=testbench.vhd
 SIMTOP=testbench
