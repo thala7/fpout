@@ -68,7 +68,8 @@ entity ahbtranschecker is
 --------adding extra port ccf cal start------------
     ccf_calc_start_port : in std_logic; ----adding this port to make a swicth input
 --------------------------------------------------
-    sw_func_or_timed : in std_logic
+    sw_func_or_timed : in std_logic;
+    sw_br_divisor    : in std_logic_vector(5 downto 0)
   );
 end; 
 
@@ -124,13 +125,14 @@ signal max_sent_char     : integer range 0 to 101:= 0;
 -------------------------
 --signal   P : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
 signal   PS : std_logic_vector(47 downto 0):= "000000000000000000000000000000000000000000000000";
-signal tx_counter : integer := 0;
-signal fp_tx_done  : std_logic:='1';
+--signal tx_counter : integer := 0;
+--signal fp_tx_done  : std_logic:='1';
 signal transmit_footprint : std_logic := '0';
 signal stop_tx : std_logic := '0';
 signal transmit_footprint_next_clk : std_logic:= '0';
+signal start_tx : std_logic := '0';
 ------------------------------------------------------------------------------------------------------------------------------- 
- signal   uart_data_in   : std_logic_vector(7 downto 0):= "00000000";
+ signal   uart_data_in   : std_logic_vector(7 downto 0):= "11111111";
  --signal   uart_data_out  : std_logic_vector(7 downto 0);
 
 ---------------------------------------------------------------
@@ -245,6 +247,10 @@ signal tbo   : tracebuf_out_type;
 
 signal enable : std_logic_vector(1 downto 0);
 signal r, rin : regtype;
+signal sw_br_divisor_s : std_logic_vector(5 downto 0);
+signal sw_br_divisor_s_int : integer := 27;
+
+signal first_time : std_logic := '0';
 
 --signal i : integer;
 
@@ -252,6 +258,8 @@ begin
     
     r.enable <= '1';
     ccf_func_not_timed <= sw_func_or_timed;
+    sw_br_divisor_s <= sw_br_divisor;
+    sw_br_divisor_s_int <= to_integer(unsigned(sw_br_divisor_s));
 
 ----------------------------------------------
 -----add editing------------------------------
@@ -368,20 +376,6 @@ ctrl : process(rst, ahbmi, ahbsi, r, tbo)
 
   end process; -- ctrl : process(rst, ahbmi, ahbsi, r, tbo)
   
-
--- srl_buffer_32 connections
-buffer32: entity work.srl_buffer_32
-  generic map (32)
-  port map(
-  	data_in => ccf_store_in_buffer,
-  	data_out=> buffer_out,
-  	reset => rst,
-  	writes => ccf_store_in_buffer_write,
-  	reads  => ccf_store_in_buffer_read,
-  	full  => srl_buffer_full,
-  	data_present => srl_buffer_data_present,
-  	clk => clk
-        );
 -- including the timestamps component
 
   timestamps_comp : entity work.timestamps
@@ -401,7 +395,7 @@ buffer32: entity work.srl_buffer_32
 ----------------------------------------------------------------------
 miniuart : entity work.UART_TX
   generic map(
-    g_CLKS_PER_BIT => 5208---2604---19200br----5208 ---50mhz with 9600br (5208)  -- Needs to be set correctly
+    g_CLKS_PER_BIT =>  24--(80/3=26.7) --40--9-- 20 for 2500000 434-- 434 for 115,200 kb with 50 Mhz -2604---19200br----5208 ---50mhz with 9600br (5208)  -- Needs to be set correctly
     )
   port map(
     i_Clk =>clk,
@@ -410,40 +404,9 @@ miniuart : entity work.UART_TX
     i_TX_Byte => uart_data_in,-- DataIn Bus
     o_TX_Active =>IntTx_O_signal ,---dummy signal
     o_TX_Serial=>uart_tx,-- Tx RS232 Line
-    o_TX_Done=>uart_wait_for_byte_to_tx --dummysignal to done bit
+    o_TX_Done=>uart_wait_for_byte_to_tx--, --dummysignal to done bit    g_CLKS_PER_BIT_in=> sw_br_divisor_s_int
     );
 ----------------------------------------------------------------------------
-------------miniuart old----------------------------------------------------
---muart: entity work.miniuart
-  -- generic map (130)
-   --port map (
--- Wishbone signals
-     --WB_CLK_I => clk,  -- clock
-     --WB_RST_I => rst,  -- Reset input
-     --WB_ADR_I => "00", -- Adress bus          
-     --WB_DAT_I => uart_data_in,  -- DataIn Bus
-     --WB_DAT_O => uart_data_out, -- DataOut Bus
---------------------------------------------------------
------------start editing-------------------------------
-     --WB_WE_I  => '1',  -- Write Enable
-     --WB_WE_I  => uart_enable,  -- Write Enable
-----------endediting------------------------------------
-----------------------------------------------------------
-    -- WB_STB_I => uart_strobe,  -- Strobe
-     --WB_ACK_O => uart_ack,    -- Acknowledge
--- process signals     
-    -- IntTx_O  => uart_wait_for_byte_to_tx,  -- Transmit interrupt: indicate waiting for Byte
-    -- IntRx_O  => uart_byte_received,        -- Receive interrupt: indicate Byte received
-     --BR_Clk_I => clk,  -- Clock used for Transmit/Receive
-     --TxD_PAD_O=> uart_tx,  -- Tx RS232 Line
-     --RxD_PAD_I=> uart_rx   -- Rx RS232 Line
-     --);     
-
-
--- end of components added for CCF storing and transmission: srl_buffer_32 and miniuart
-
-
---  ahbso.hresp <= HRESP_OKAY;
 
   regs : process(clk)
      begin if rising_edge(clk) then r <= rin; end if; 
@@ -472,7 +435,7 @@ miniuart : entity work.UART_TX
 	          if curr_addr = X"40000000" or prev_addr = X"40000000" then
 --------------------------------------------------------------------------------------------------------------
                     --ccf_calc_start <= ccf_calc_start_port;
-	            ccf_calc_start <= '1';
+	            ccf_calc_start <= '1'; 
 -------------------------------------------------------------------------------------------------------------
 
 	            --start_wait_for_startaddr <= '0';
@@ -525,10 +488,7 @@ miniuart : entity work.UART_TX
         if tx_next_ccf = '1' then
            ccf_to_uart_prev <= ccf_to_uart;
         end if;
-  --------------------------------------------------------------------------------      
-        --uart_data_in <= ccf_to_uart(7 downto 0);
-        --ccf_to_uart  <= ccf_to_uart(7 downto 0) & ccf_to_uart(msb downto 8); 
-  ---------------------------------------------------------------------------------      
+   
         
       end if; -- end of ccf_calc_start = '1' and ccf_calc_stop = '0'
     
@@ -571,12 +531,17 @@ variable N_counted_var : integer range 0 to 1024:= 0;
 variable NC_counter    : integer range 0 to 1024:= 0;
 --variable tcf_v         : std_logic_vector(31 downto 0):= "00000000000000000000000000000000";
 variable N_counted_vec : std_logic_vector(15 downto 0):= "0000000000000000";
+variable tx_counter : integer := 0;
+variable fp_tx_done  : std_logic:='1';
 begin
 
  if rising_edge(clk) then
       
         if ccf_calc_start = '1' then 
           NC_counter :=  NC_counter + 1;  ---trace-cycle counter
+          --if (NC_counter = 1 or NC_counter = 0) then
+          --   uart_data_in <= X"FF";
+          --end if;
          end if;    
 
          if (ccf_calc_en = '1') then 
@@ -602,7 +567,7 @@ begin
                --PS(47 downto 0) <= P(47 downto 0);   
           --
                NC_counter := 0;
-               fp_tx_done <= '0';
+               fp_tx_done := '0';
                N_counted <= 0;
 
                transmit_footprint_next_clk <= '1'; 
@@ -618,73 +583,87 @@ begin
          --      end if;
          --end if;
 
+
+   if (fp_tx_done = '0' and start_tx = '1') then
+    --case tx_counter is
+      if (tx_counter = 0 ) then--when 0 =>
+       transmit_footprint <='0';
+       if (IntTx_O_signal = '0') then -- uart is idle
+        transmit_footprint <= '1'; 
+        uart_data_in <= PS(47 downto 40);-- "00001111";--
+        tx_counter := 1 ;
+       else
+        transmit_footprint <= '0'; 
+       end if; --enf if and IntTx_O_signal = '0'
+
+      elsif (tx_counter = 1 ) then --when 1 =>
+       if (uart_wait_for_byte_to_tx = '1') then
+        transmit_footprint <= '1';
+        uart_data_in <= PS(39 downto 32);--"00000111";--
+        tx_counter := 2;
+       else
+        transmit_footprint <= '0'; 
+       end if ; -- end of if (uart_wait_for_byte_to_tx = '1') 
+
+      elsif (tx_counter = 2) then--when 2 =>
+       if (uart_wait_for_byte_to_tx = '1' ) then
+        transmit_footprint <= '1';
+        uart_data_in <= PS(31 downto 24); -- <= "00000011";--
+        tx_counter :=3; 
+       else
+        transmit_footprint <= '0'; 
+       end if;
+
+      elsif (tx_counter = 3) then--when 3 =>
+       if (uart_wait_for_byte_to_tx = '1' ) then
+        transmit_footprint <= '1';
+        uart_data_in <= PS(23 downto 16);--"00000001";--
+        tx_counter :=4; 
+       else
+        transmit_footprint <= '0'; 
+       end if;
+
+      elsif (tx_counter = 4) then--when 4 =>
+       if (uart_wait_for_byte_to_tx = '1' ) then
+        transmit_footprint <= '1';
+        uart_data_in  <= PS(15 downto 8);--<= "00000010";--
+        tx_counter :=5; 
+       else
+        transmit_footprint <= '0'; 
+       end if;
+
+      elsif (tx_counter = 5) then--when 5 =>
+       if (uart_wait_for_byte_to_tx = '1' ) then
+        transmit_footprint <= '1';
+        uart_data_in <= PS(7 downto 0); --"00000100";----"11111111";
+        tx_counter := 6;
+       else
+        transmit_footprint <= '0'; 
+       end if;
+
+      elsif (tx_counter = 6) then--when 6 =>
+       if (uart_wait_for_byte_to_tx = '1' ) then
+        tx_counter := 0;
+        fp_tx_done := '1';
+        transmit_footprint <= '0';
+        start_tx <= '0';
+       else
+        transmit_footprint <= '0'; 
+       end if;
+      end if;--end of if (tx_counter = 0) then
+      --when others =>
+        --tx_counter <= 0;
+        --transmit_footprint <= '0';
+   --end case;
+   end if; -- end of if tx_counter
+ end if; --end of if (fp_tx_done = '0' and start_tx = '1')
+
+
          if (transmit_footprint_next_clk = '1' ) then
-              transmit_footprint <= '1'; 
+              start_tx <= '1'; 
               transmit_footprint_next_clk <= '0'; 
          end if;
 
-
-   if (fp_tx_done = '0') then
- 
-    case tx_counter is
-      when 0 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(47 downto 40); --PS
-       if (uart_wait_for_byte_to_tx = '1' ) then
-        tx_counter <=1;
-       else 
-        tx_counter <= 0;
-       end if;
-      when 1 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(39 downto 32);
-       if (uart_wait_for_byte_to_tx = '1' )then
-        tx_counter <= 2;
-       else 
-        tx_counter <= 1;
-       end if;
-      when 2 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(31 downto 24);
-       if (uart_wait_for_byte_to_tx = '1' ) then
-        tx_counter <=3;
-       else 
-        tx_counter <=2;
-       end if;
-      when 3 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(23 downto 16);
-       if (uart_wait_for_byte_to_tx = '1' ) then
-        tx_counter <=4;
-       else
-        tx_counter <=3;
-       end if;
-      when 4 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(15 downto 8);
-       if (uart_wait_for_byte_to_tx = '1' ) then
-        tx_counter <=5;
-       else
-        tx_counter <=4;
-       end if;
-      when 5 =>
-        transmit_footprint <= '1';
-        uart_data_in <= PS(7 downto 0);
-       if (uart_wait_for_byte_to_tx = '1' ) then
-        tx_counter <= 6;
-       else
-        tx_counter <= 5;
-       end if;
-      when 6 =>
-        tx_counter <= 0;
-        fp_tx_done <= '1';
-        transmit_footprint <= '0';
-      when others =>
-        tx_counter <= 0;
-        transmit_footprint <= '0';
-   end case;
-   end if;
- end if;
 end process;
 --- -------------------------------------edited logic
 
@@ -753,6 +732,8 @@ PRESET: process (rst, clk)
         --ccf_calc_start <= '0';
         --csa <= INIT_CSA_0 ;
         start_wait_for_startaddr <= '1';
+        --PS <= "000000000000000000000000000000000000000000000000";
+        --uart_data_in <= "00000000";
         --ccf_calc_stop <= '0';
         --match_o <= '0';
        --end if;
