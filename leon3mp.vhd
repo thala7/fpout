@@ -301,8 +301,8 @@ begin
   cgi.pllctrl <= "00";
   cgi.pllrst <= rstraw;
   led(7) <= ccf_calc_switch_signal;
-  sw_func_or_timed_s <= '0';
-
+  sw_func_or_timed_s <= '1';--sw(6);
+   led(6)<= sw_func_or_timed_s;
   rst0 : rstgen generic map (acthigh => 1)
     port map (btn(0), clkm, lock, rstn, rstraw);
   lock <= cgo.clklock;

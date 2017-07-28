@@ -68,8 +68,8 @@ entity ahbtranschecker is
 --------adding extra port ccf cal start------------
     ccf_calc_start_port : in std_logic; ----adding this port to make a swicth input
 --------------------------------------------------
-    sw_func_or_timed : in std_logic;
-    sw_br_divisor    : in std_logic_vector(5 downto 0)
+    sw_func_or_timed : in std_logic
+    --sw_br_divisor    : in std_logic_vector(5 downto 0)
   );
 end; 
 
@@ -247,8 +247,8 @@ signal tbo   : tracebuf_out_type;
 
 signal enable : std_logic_vector(1 downto 0);
 signal r, rin : regtype;
-signal sw_br_divisor_s : std_logic_vector(5 downto 0);
-signal sw_br_divisor_s_int : integer := 27;
+--signal sw_br_divisor_s : std_logic_vector(5 downto 0);
+--signal sw_br_divisor_s_int : integer := 27;
 
 signal first_time : std_logic := '0';
 
@@ -258,8 +258,8 @@ begin
     
     r.enable <= '1';
     ccf_func_not_timed <= sw_func_or_timed;
-    sw_br_divisor_s <= sw_br_divisor;
-    sw_br_divisor_s_int <= to_integer(unsigned(sw_br_divisor_s));
+    --sw_br_divisor_s <= sw_br_divisor;
+    --sw_br_divisor_s_int <= to_integer(unsigned(sw_br_divisor_s));
 
 ----------------------------------------------
 -----add editing------------------------------
@@ -381,7 +381,7 @@ ctrl : process(rst, ahbmi, ahbsi, r, tbo)
   timestamps_comp : entity work.timestamps
     generic map ( m => 1024)
     port map (
-    ---start => ccf_calc_en,
+    
     start => ccf_calc_start,
     clk => clk,
     ts => ts_signal
@@ -434,8 +434,8 @@ miniuart : entity work.UART_TX
 	    if start_wait_for_startaddr = '1' then --  now when start_wait_for_startaddr =1 , i.e. after reset
 	          if curr_addr = X"40000000" or prev_addr = X"40000000" then
 --------------------------------------------------------------------------------------------------------------
-                    --ccf_calc_start <= ccf_calc_start_port;
-	            ccf_calc_start <= '1'; 
+                    ccf_calc_start <= ccf_calc_start_port;
+	            --ccf_calc_start <= '1'; 
 -------------------------------------------------------------------------------------------------------------
 
 	            --start_wait_for_startaddr <= '0';
@@ -529,7 +529,7 @@ miniuart : entity work.UART_TX
 Uart_Transfer: process (clk)
 variable N_counted_var : integer range 0 to 1024:= 0; 
 variable NC_counter    : integer range 0 to 1024:= 0;
---variable tcf_v         : std_logic_vector(31 downto 0):= "00000000000000000000000000000000";
+variable tcf_v         : std_logic_vector(31 downto 0):= "00000000000000000000000000000000";
 variable N_counted_vec : std_logic_vector(15 downto 0):= "0000000000000000";
 variable tx_counter : integer := 0;
 variable fp_tx_done  : std_logic:='1';
@@ -546,30 +546,32 @@ begin
 
          if (ccf_calc_en = '1') then 
            N_counted <= N_counted + 1;
+           N_counted_var := N_counted+1;    
+           tcf_v := tcf;
          end if;
    
            if (NC_counter = 1024)then
            --put N_counted anf tcf in bytes to be txed
 
-             if (ccf_calc_en = '1') then 
-	        N_counted_var := N_counted+1; 
+           --if (ccf_calc_en = '1') then 
+	     --   N_counted_var := N_counted+1; 
 		--tcf_v := tcf;
-	     end if;
+--	    end if;
              N_counted_vec := std_logic_vector(to_unsigned(N_counted_var,16));
 
                PS(47 downto 40) <= N_counted_vec(15 downto 8);
                PS(39 downto 32) <= N_counted_vec(7 downto 0);
-               PS(31 downto 24) <= tcf(31 downto 24);
-               PS(23 downto 16) <= tcf(23 downto 16);
-               PS(15 downto 8)  <= tcf(15 downto 8);
-               PS(7 downto 0)   <= tcf(7 downto 0);
+               PS(31 downto 24) <= tcf_v(31 downto 24);
+               PS(23 downto 16) <= tcf_v(23 downto 16);
+               PS(15 downto 8)  <= tcf_v(15 downto 8);
+               PS(7 downto 0)   <= tcf_v(7 downto 0);
           --
                --PS(47 downto 0) <= P(47 downto 0);   
           --
                NC_counter := 0;
                fp_tx_done := '0';
                N_counted <= 0;
-
+               N_counted_var :=0;
                transmit_footprint_next_clk <= '1'; 
           --
                
