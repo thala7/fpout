@@ -461,8 +461,8 @@ ahbtc0: entity work.ahbtranschecker
     u_tx => RsTx,
     ccf_calc_start_port =>ccf_calc_switch_signal,
 
-    sw_func_or_timed => sw_func_or_timed_s,
-    sw_br_divisor => sw_br_divisor_s
+    sw_func_or_timed => sw_func_or_timed_s--,
+    --sw_br_divisor => sw_br_divisor_s
   );
 
 ----------end editing------------
