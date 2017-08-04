@@ -260,6 +260,7 @@ signal outccf_7 : Std_Logic_Vector(31 downto 0); -- Last Byte received--dummy si
 --signal IntTx_O_signal : std_logic;---interrupt
 --signal Intrx_O_signal : std_logic;---interrupt
 --signal WB_DAT_I_SIGNAL: Std_Logic_Vector(7 downto 0); -- Last Byte received
+signal sw_br_divisor_s : std_logic_vector(5 downto 0);
 signal ccf_calc_switch_signal : std_logic;--dummy signal
 signal sw_func_or_timed_s : std_logic;--dummy signal
 
@@ -460,7 +461,8 @@ ahbtc0: entity work.ahbtranschecker
     u_tx => RsTx,
     ccf_calc_start_port =>ccf_calc_switch_signal,
 
-    sw_func_or_timed => sw_func_or_timed_s
+    sw_func_or_timed => sw_func_or_timed_s,
+    sw_br_divisor => sw_br_divisor_s
   );
 
 ----------end editing------------
@@ -482,6 +484,7 @@ ahbtc0: entity work.ahbtranschecker
 ---------------------------------------------------------------------
 -----------switch for ccf start-----------------------------
     ccf_calc_switch_signal<= sw(7);
+    sw_br_divisor_s <= sw(5 downto 0);
 --inccf_8_pad : inpadv generic map (tech => padtech, width => 1)
   ---   port map (sw(7), ccf_calc_switch_signal(7));
 --------------------------------------------------------------------
